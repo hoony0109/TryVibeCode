@@ -1,0 +1,134 @@
+{
+  "mcpServers": {
+    "Context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
+    },
+	"playwright": {
+      "command": "npx",
+      "args": ["-y", "@executeautomation/playwright-mcp-server"]
+    },
+	"sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+	 "task-master-ai": {
+      "command": "npx",
+      "args": ["-y", "--package=task-master-ai", "task-master-ai"],
+      "env": {
+        "ANTHROPIC_API_KEY": "YOUR_ANTHROPIC_API_KEY",
+        "PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY"
+      }
+    },
+	"filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem"],
+      "env": { "DIRECTORIES": "E:\\hoony\\VibeCode\\FirstPJ" }
+    },
+	"github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": { "GITHUB_TOKEN": "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" }
+    },
+	"text-editor": {
+      "command": "uvx",
+      "args": [
+        "mcp-text-editor"
+      ]
+    },
+	"edit-file-lines": {
+      "command": "node",
+      "args": [
+        "/path/to/edit-file-lines/build/index.js",
+        "E:\\hoony\\VibeCode\\FirstPJ"
+      ],
+      "env": {
+        "MCP_EDIT_STATE_TTL": "300000"  // Optional: Set custom TTL (in milliseconds)
+      }
+    },
+	"shrimp-task-manager": {
+      "command": "npx",
+      "args": ["-y", "mcp-shrimp-task-manager"],
+      "env": {
+        "DATA_DIR": "E:\\hoony\\VibeCode\\FirstPJ\\data", // Must use absolute path
+        "TEMPLATES_USE": "en",
+        "ENABLE_GUI": "false"
+      }
+    },
+	"docker-mcp": {
+      "command": "node",
+      "args": ["/path/to/docker-mcp/dist/index.js"],
+      "disabled": false,
+      "autoApprove": []
+    },
+	"mysqldb-mcp-server": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/burakdirin/Projects/mysqldb-mcp-server",
+        "run",
+        "mysqldb-mcp-server"
+      ],
+      "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "password",
+        "MYSQL_DATABASE": "[optional]",
+        "MYSQL_READONLY": "true"
+      }
+    },
+	"rest-api": {
+      "command": "node",
+      "args": [
+        "C:/Users/User/AppData/Roaming/npm/node_modules/dkmaker-mcp-rest-api/build/index.js"
+      ],
+      "env": {
+        "REST_BASE_URL": "https://api.example.com",
+        // Basic Auth
+        "AUTH_BASIC_USERNAME": "your-username",
+        "AUTH_BASIC_PASSWORD": "your-password",
+        // OR Bearer Token
+        "AUTH_BEARER": "your-token",
+        // OR API Key
+        "AUTH_APIKEY_HEADER_NAME": "X-API-Key",
+        "AUTH_APIKEY_VALUE": "your-api-key",
+        // SSL Verification (enabled by default)
+        "REST_ENABLE_SSL_VERIFY": "false", // Set to false to disable SSL verification for self-signed certificates
+        // Response Size Limit (optional, defaults to 10000 bytes)
+        "REST_RESPONSE_SIZE_LIMIT": "10000", // Maximum response size in bytes
+        // Custom Headers (optional)
+        "HEADER_X-API-Version": "2.0",
+        "HEADER_Custom-Client": "my-client",
+        "HEADER_Accept": "application/json"
+      }
+    },
+	"windows-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "E:\\hoony\\VibeCode\\FirstPJ",
+        "run",
+        "main.py"
+      ]
+    },
+	"fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+	
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/your-username/Desktop"
+      ]
+    }
+  }
+}

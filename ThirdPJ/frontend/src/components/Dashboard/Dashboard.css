@@ -1,0 +1,86 @@
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.dashboard-widget {
+    background-color: #162447;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.stat-card {
+    display: flex;
+    align-items: center;
+    background-color: #162447;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.stat-icon {
+    font-size: 36px;
+    margin-right: 20px;
+    color: #e94560;
+}
+
+.stat-info h4 {
+    margin: 0 0 5px 0;
+    color: #b8c1ec;
+    font-size: 16px;
+}
+
+.stat-info p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fbecec;
+}
+
+.server-status h3, .ccu-chart h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #fbecec;
+}
+
+.server-status table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.server-status th, .server-status td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #3a3a5e;
+}
+
+.server-status th {
+    color: #b8c1ec;
+}
+
+.status-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.status-dot.online {
+    background-color: #2ecc71;
+}
+
+.status-dot.maintenance {
+    background-color: #f1c40f;
+}
+
+.status-dot.offline {
+    background-color: #e74c3c;
+}
+
+.ccu-chart {
+    grid-column: 1 / -1; /* Make chart span full width */
+}

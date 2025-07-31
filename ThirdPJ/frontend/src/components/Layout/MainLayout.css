@@ -1,0 +1,19 @@
+
+.main-layout {
+    display: flex;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    margin-left: 250px; /* Same as sidebar width */
+    display: flex;
+    flex-direction: column;
+}
+
+.content-area {
+    padding: 20px;
+    flex-grow: 1;
+}

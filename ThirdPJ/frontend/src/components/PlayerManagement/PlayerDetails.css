@@ -1,0 +1,50 @@
+.player-details h3 {
+    color: #fbecec;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #3a3a5e;
+    padding-bottom: 10px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.detail-item {
+    background-color: #1e1e3f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.detail-item strong {
+    color: #b8c1ec;
+    margin-right: 8px;
+}
+
+.details-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.details-actions .action-button.secondary {
+    background-color: #4a4a6a;
+}
+
+.details-actions .action-button.secondary:hover {
+    background-color: #5a5a7a;
+}
+
+/* Styles for disabled buttons */
+.action-button:disabled {
+    background-color: #3a3a5e; /* Darker background for disabled */
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.action-button.secondary:disabled {
+    background-color: #2a2a4a; /* Even darker for disabled secondary */
+}

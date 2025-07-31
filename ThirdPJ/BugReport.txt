@@ -1,0 +1,26 @@
+PlayerManagementPage.tsx:30 
+ GET http://localhost:3000/api/players?search= 401 (Unauthorized)
+fetchPlayers	@	PlayerManagementPage.tsx:30
+(anonymous)	@	PlayerManagementPage.tsx:50
+setTimeout		
+(anonymous)	@	PlayerManagementPage.tsx:49
+<PlayerManagementPage>		
+ProtectedRoutes	@	App.tsx:16
+<ProtectedRoutes>		
+App	@	App.tsx:28
+<App>		
+(anonymous)	@	main.tsx:8
+
+PlayerManagementPage.tsx:44 Failed to fetch players 
+AxiosError {message: 'Request failed with status code 401', name: 'AxiosError', code: 'ERR_BAD_REQUEST', config: {…}, request: XMLHttpRequest, …}
+fetchPlayers	@	PlayerManagementPage.tsx:44
+await in fetchPlayers		
+(anonymous)	@	PlayerManagementPage.tsx:50
+setTimeout		
+(anonymous)	@	PlayerManagementPage.tsx:49
+<PlayerManagementPage>		
+ProtectedRoutes	@	App.tsx:16
+<ProtectedRoutes>		
+App	@	App.tsx:28
+<App>		
+(anonymous)	@	main.tsx:8
