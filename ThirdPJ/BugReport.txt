@@ -1,26 +1,258 @@
-PlayerManagementPage.tsx:30 
- GET http://localhost:3000/api/players?search= 401 (Unauthorized)
-fetchPlayers	@	PlayerManagementPage.tsx:30
-(anonymous)	@	PlayerManagementPage.tsx:50
-setTimeout		
-(anonymous)	@	PlayerManagementPage.tsx:49
-<PlayerManagementPage>		
-ProtectedRoutes	@	App.tsx:16
-<ProtectedRoutes>		
-App	@	App.tsx:28
-<App>		
-(anonymous)	@	main.tsx:8
-
-PlayerManagementPage.tsx:44 Failed to fetch players 
-AxiosError {message: 'Request failed with status code 401', name: 'AxiosError', code: 'ERR_BAD_REQUEST', config: {…}, request: XMLHttpRequest, …}
-fetchPlayers	@	PlayerManagementPage.tsx:44
-await in fetchPlayers		
-(anonymous)	@	PlayerManagementPage.tsx:50
-setTimeout		
-(anonymous)	@	PlayerManagementPage.tsx:49
-<PlayerManagementPage>		
-ProtectedRoutes	@	App.tsx:16
-<ProtectedRoutes>		
-App	@	App.tsx:28
-<App>		
-(anonymous)	@	main.tsx:8
+PlayerManagementPage.tsx:108  GET http://localhost:3000/api/players/71?dbId=w07_gamedb 500 (Internal Server Error)
+dispatchXhrRequest @ axios.js?v=97a6a75a:1672
+xhr @ axios.js?v=97a6a75a:1552
+dispatchRequest @ axios.js?v=97a6a75a:2027
+_request @ axios.js?v=97a6a75a:2248
+request @ axios.js?v=97a6a75a:2139
+Axios.<computed> @ axios.js?v=97a6a75a:2267
+wrap @ axios.js?v=97a6a75a:8
+handleDetailsClick @ PlayerManagementPage.tsx:108
+onClick @ PlayerManagementPage.tsx:258
+executeDispatch @ react-dom_client.js?v=97a6a75a:11736
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+processDispatchQueue @ react-dom_client.js?v=97a6a75a:11772
+(anonymous) @ react-dom_client.js?v=97a6a75a:12182
+batchedUpdates$1 @ react-dom_client.js?v=97a6a75a:2628
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=97a6a75a:11877
+dispatchEvent @ react-dom_client.js?v=97a6a75a:14792
+dispatchDiscreteEvent @ react-dom_client.js?v=97a6a75a:14773
+<button>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+(anonymous) @ PlayerManagementPage.tsx:258
+PlayerManagementPage @ PlayerManagementPage.tsx:249
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<PlayerManagementPage>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+ProtectedRoutes @ App.tsx:16
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<ProtectedRoutes>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+App @ App.tsx:28
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+(anonymous) @ main.tsx:8Understand this error
+PlayerManagementPage.tsx:126 Failed to fetch player details AxiosError {message: 'Request failed with status code 500', name: 'AxiosError', code: 'ERR_BAD_RESPONSE', config: {…}, request: XMLHttpRequest, …}
+handleDetailsClick @ PlayerManagementPage.tsx:126
+await in handleDetailsClick
+onClick @ PlayerManagementPage.tsx:258
+executeDispatch @ react-dom_client.js?v=97a6a75a:11736
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+processDispatchQueue @ react-dom_client.js?v=97a6a75a:11772
+(anonymous) @ react-dom_client.js?v=97a6a75a:12182
+batchedUpdates$1 @ react-dom_client.js?v=97a6a75a:2628
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=97a6a75a:11877
+dispatchEvent @ react-dom_client.js?v=97a6a75a:14792
+dispatchDiscreteEvent @ react-dom_client.js?v=97a6a75a:14773
+<button>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+(anonymous) @ PlayerManagementPage.tsx:258
+PlayerManagementPage @ PlayerManagementPage.tsx:249
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<PlayerManagementPage>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+ProtectedRoutes @ App.tsx:16
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<ProtectedRoutes>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+App @ App.tsx:28
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+(anonymous) @ main.tsx:8Understand this error
+PlayerManagementPage.tsx:108  GET http://localhost:3000/api/players/71?dbId=w07_gamedb 500 (Internal Server Error)
+dispatchXhrRequest @ axios.js?v=97a6a75a:1672
+xhr @ axios.js?v=97a6a75a:1552
+dispatchRequest @ axios.js?v=97a6a75a:2027
+_request @ axios.js?v=97a6a75a:2248
+request @ axios.js?v=97a6a75a:2139
+Axios.<computed> @ axios.js?v=97a6a75a:2267
+wrap @ axios.js?v=97a6a75a:8
+handleDetailsClick @ PlayerManagementPage.tsx:108
+onClick @ PlayerManagementPage.tsx:258
+executeDispatch @ react-dom_client.js?v=97a6a75a:11736
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+processDispatchQueue @ react-dom_client.js?v=97a6a75a:11772
+(anonymous) @ react-dom_client.js?v=97a6a75a:12182
+batchedUpdates$1 @ react-dom_client.js?v=97a6a75a:2628
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=97a6a75a:11877
+dispatchEvent @ react-dom_client.js?v=97a6a75a:14792
+dispatchDiscreteEvent @ react-dom_client.js?v=97a6a75a:14773
+<button>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+(anonymous) @ PlayerManagementPage.tsx:258
+PlayerManagementPage @ PlayerManagementPage.tsx:249
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<PlayerManagementPage>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+ProtectedRoutes @ App.tsx:16
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<ProtectedRoutes>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+App @ App.tsx:28
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+(anonymous) @ main.tsx:8Understand this error
+PlayerManagementPage.tsx:126 Failed to fetch player details AxiosError {message: 'Request failed with status code 500', name: 'AxiosError', code: 'ERR_BAD_RESPONSE', config: {…}, request: XMLHttpRequest, …}
+handleDetailsClick @ PlayerManagementPage.tsx:126
+await in handleDetailsClick
+onClick @ PlayerManagementPage.tsx:258
+executeDispatch @ react-dom_client.js?v=97a6a75a:11736
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+processDispatchQueue @ react-dom_client.js?v=97a6a75a:11772
+(anonymous) @ react-dom_client.js?v=97a6a75a:12182
+batchedUpdates$1 @ react-dom_client.js?v=97a6a75a:2628
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=97a6a75a:11877
+dispatchEvent @ react-dom_client.js?v=97a6a75a:14792
+dispatchDiscreteEvent @ react-dom_client.js?v=97a6a75a:14773
+<button>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+(anonymous) @ PlayerManagementPage.tsx:258
+PlayerManagementPage @ PlayerManagementPage.tsx:249
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<PlayerManagementPage>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+ProtectedRoutes @ App.tsx:16
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<ProtectedRoutes>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+App @ App.tsx:28
+react_stack_bottom_frame @ react-dom_client.js?v=97a6a75a:17424
+renderWithHooksAgain @ react-dom_client.js?v=97a6a75a:4281
+renderWithHooks @ react-dom_client.js?v=97a6a75a:4217
+updateFunctionComponent @ react-dom_client.js?v=97a6a75a:6619
+beginWork @ react-dom_client.js?v=97a6a75a:7654
+runWithFiberInDEV @ react-dom_client.js?v=97a6a75a:1485
+performUnitOfWork @ react-dom_client.js?v=97a6a75a:10868
+workLoopSync @ react-dom_client.js?v=97a6a75a:10728
+renderRootSync @ react-dom_client.js?v=97a6a75a:10711
+performWorkOnRoot @ react-dom_client.js?v=97a6a75a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=97a6a75a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=97a6a75a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=97a6a75a:250
+(anonymous) @ main.tsx:8Understand this error
+PlayerDetails.tsx:3 Uncaught ReferenceError: useState is not defined
+    at PlayerDetails (PlayerDetails.tsx:3:33)

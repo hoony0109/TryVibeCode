@@ -1,4 +1,5 @@
 const mysql = require('mysql2/promise');
+const gameDbConfigs = require('./gameDbs.json');
 
 // Connection pool for the operation database (e.g., for admin accounts, coupons)
 const operationPool = mysql.createPool({
@@ -11,15 +12,20 @@ const operationPool = mysql.createPool({
     queueLimit: 0
 });
 
-// Connection pool for the game database (e.g., for userinfo, char_info)
-const gamePool = mysql.createPool({
-    host: process.env.GAME_DB_HOST,
-    user: process.env.GAME_DB_USER,
-    password: process.env.GAME_DB_PASSWORD,
-    database: process.env.GAME_DB_NAME,
-    waitForConnections: true,
-    connectionLimit: 10,
-    queueLimit: 0
+// Map to store game database pools by ID
+const gamePools = new Map();
+
+// Initialize game database pools
+gameDbConfigs.forEach(config => {
+    gamePools.set(config.id, mysql.createPool({
+        host: config.host,
+        user: config.user,
+        password: config.password,
+        database: config.database,
+        waitForConnections: true,
+        connectionLimit: 10,
+        queueLimit: 0
+    }));
 });
 
 async function queryOperationDb(sql, params) {
@@ -27,12 +33,19 @@ async function queryOperationDb(sql, params) {
     return rows;
 }
 
-async function queryGameDb(sql, params) {
-    const [rows] = await gamePool.execute(sql, params);
-    return rows;
+function getGameDbQuery(dbId) {
+    const pool = gamePools.get(dbId);
+    if (!pool) {
+        throw new Error(`Game database with ID ${dbId} not found.`);
+    }
+    return async (sql, params) => {
+        const [rows] = await pool.execute(sql, params);
+        return rows;
+    };
 }
 
 module.exports = {
     operationDb: { query: queryOperationDb },
-    gameDb: { query: queryGameDb }
+    gameDb: { getQuery: getGameDbQuery }, // Changed to getQuery
+    getAvailableGameDbIds: () => gameDbConfigs.map(config => config.id)
 };

@@ -1,0 +1,16 @@
+[
+    {
+        "id": "w07_gamedb",
+        "host": "localhost",
+        "user": "root",
+        "password": "m5260",
+        "database": "w07_gamedb"
+    },
+    {
+        "id": "w01_gamedb",
+        "host": "192.168.150.76",
+        "user": "stormgames",
+        "password": "stormgames",
+        "database": "w01_gamedb"
+    }
+]

@@ -18,8 +18,8 @@ const LoginPage: React.FC = () => {
                 password,
             });
             localStorage.setItem('token', response.data.token);
-            alert('Login successful!'); // Show success alert
             navigate('/');
+            alert('Login successful!'); // Show success alert after navigation
         } catch (err) {
             setError('Invalid credentials');
             alert('Invalid credentials'); // Show error alert

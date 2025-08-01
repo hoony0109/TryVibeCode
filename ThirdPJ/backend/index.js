@@ -12,6 +12,7 @@ app.use(express.json());
 // Define Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/players', require('./routes/players'));
+app.use('/api/items', require('./routes/items'));
 
 app.get('/', (req, res) => {
   res.send('Hello from Backend!');

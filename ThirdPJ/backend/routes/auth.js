@@ -3,7 +3,7 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { check, validationResult } = require('express-validator');
-const mysql = require('../config/mysql');
+const { operationDb, gameDb } = require('../config/mysql');
 const redis = require('../config/redis');
 const auth = require('../middleware/auth');
 const { logActivity } = require('../models/Log');
@@ -24,16 +24,27 @@ router.post(
     const { username, password } = req.body;
 
   try {
-    const [rows] = await mysql.execute('SELECT * FROM admins WHERE username = ?', [username]);
+    console.log('Login attempt for username:', username);
+    console.log('Executing query: SELECT * FROM admins WHERE username = ? with param:', username);
+    const rows = await operationDb.query('SELECT * FROM admins WHERE username = ?', [username]);
+    console.log('Query result rows:', rows);
     const admin = rows[0];
 
+    console.log('Admin found:', admin);
+
     if (!admin) {
+      console.log('Admin not found for username:', username);
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
+    console.log('Stored hashed password:', admin.password);
+    console.log('Password from request (first 5 chars): ', password.substring(0, 5) + '...'); // Log partial password for security
     const isMatch = await bcrypt.compare(password, admin.password);
 
+    console.log('Password match result (isMatch):', isMatch);
+
     if (!isMatch) {
+      console.log('Password mismatch for username:', username);
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
