@@ -2,102 +2,86 @@ const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth');
 const { gameDb } = require('../config/mysql');
+const { logAdminAction, ComponentType, ActionType } = require('../utils/adminLogger');
+const { loadItemData, getItemData } = require('../utils/itemDataParser');
+
+// Removed loadItemData() call from here
 
 /**
  * @route   POST /api/items/give
- * @desc    Give item to a player
+ * @desc    Give item to a player by inserting into user_post table
  * @access  Private
  */
 router.post('/give', auth, async (req, res) => {
-    const { userIndex, charIndex, dbId, itemId, itemType, quantity } = req.body;
+    const { userIndex, charIndex, dbId, itemId, quantity } = req.body;
 
-    if (!userIndex || !charIndex || !dbId || !itemId || !itemType || quantity === undefined) {
-        return res.status(400).json({ msg: 'Missing required fields.' });
+    if (userIndex === undefined || charIndex === undefined || dbId === undefined || itemId === undefined || quantity === undefined) {
+        return res.status(400).json({ msg: 'userIndex, charIndex, dbId, itemId, and quantity are required.' });
     }
 
     try {
         const queryGameDb = gameDb.getQuery(dbId);
+        const itemDetails = getItemData().get(String(itemId));
 
-        if (itemType === 'consumable') {
-            // For consumable items, update item_value in char_inven_item
-            const sql = `
-                INSERT INTO char_inven_item (char_idx, user_idx, item_type, item_id, item_value)
-                VALUES (?, ?, ?, ?, ?)
-                ON DUPLICATE KEY UPDATE item_value = item_value + VALUES(item_value)
-            `;
-            await queryGameDb(sql, [charIndex, userIndex, 1, itemId, quantity]); // item_type 1 for consumable
-        } else if (itemType === 'equipment') {
-            // For equipment, insert a new row in char_inven_equip
-            // This is a simplified example. Real equipment might need more fields (quality, level, etc.)
-            const sql = `
-                INSERT INTO char_inven_equip (char_idx, user_idx, item_id, quality_grade, item_level, equip_type, item_exp, equip, equip_slot, belong, remove_lock, enchant_level, identify)
-                VALUES (?, ?, ?, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0)
-            `;
-            // Assuming default values for other fields for simplicity
-            await queryGameDb(sql, [charIndex, userIndex, itemId]);
-        } else {
-            return res.status(400).json({ msg: 'Invalid item type.' });
+        if (!itemDetails) {
+            return res.status(404).json({ msg: 'Item not found.' });
         }
 
-        res.json({ msg: `Successfully gave ${quantity} of item ${itemId} to player ${userIndex}.` });
+        // --- Start of Defensive Coding --- 
+        // Ensure all parameters are defined and have default values if necessary.
+        const p_user_idx = userIndex;
+        const p_send_idx = 0; // 0 for AdminTool
+        const p_sender_nick = 'AdminTool';
+        const p_char_idx = charIndex;
+        const p_post_type = 1; // 1 for item delivery
+        const p_post_text_idx = 0;
+        const p_title_msg = '아이템 지급';
+        const p_message = `아이템 ${itemDetails.name || 'Unknown Item'} ${quantity}개가 지급되었습니다.`;
+        
+        const expireDate = new Date();
+        expireDate.setDate(expireDate.getDate() + 7);
+        const p_expire_date = expireDate;
+
+        // CRITICAL: Ensure item_type is not undefined. Default to a safe value if needed.
+        const p_item_type = itemDetails.category ?? 'etc'; // Default to 'etc' if category is undefined
+        const p_item_id = itemId;
+        const p_item_value = quantity;
+        // --- End of Defensive Coding ---
+
+        const sql = `
+            INSERT INTO user_post (
+                user_idx, send_idx, sender_nick, char_idx,
+                post_type, post_text_idx, title_msg, message, expire_date,
+                item_type, item_id, item_value
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `;
+
+        const params = [
+            p_user_idx, p_send_idx, p_sender_nick, p_char_idx,
+            p_post_type, p_post_text_idx, p_title_msg, p_message, p_expire_date,
+            p_item_type, p_item_id, p_item_value
+        ];
+
+        await queryGameDb(sql, params);
+
+        // Log the item giving action
+        logAdminAction(
+            req.admin.id,
+            ComponentType.PLAYER_MANAGEMENT, // Assuming item giving is part of player management
+            ActionType.GIVE_ITEM, // Need to add GIVE_ITEM to ActionType enum
+            { userIndex, charIndex, dbId, itemId, quantity, itemName: itemDetails.name },
+            req.ip
+        );
+
+        res.json({ msg: `Successfully sent ${quantity} of item ${itemDetails.name} to player ${userIndex} via user_post.` });
     } catch (err) {
-        console.error(err.message);
+        console.error('Error in /api/items/give:', err.message);
         res.status(500).send('Server Error');
     }
 });
 
-/**
- * @route   POST /api/items/take
- * @desc    Take item from a player
- * @access  Private
- */
-router.post('/take', auth, async (req, res) => {
-    const { userIndex, charIndex, dbId, itemId, itemType, quantity } = req.body;
-
-    if (!userIndex || !charIndex || !dbId || !itemId || !itemType || quantity === undefined) {
-        return res.status(400).json({ msg: 'Missing required fields.' });
-    }
-
-    try {
-        const queryGameDb = gameDb.getQuery(dbId);
-
-        if (itemType === 'consumable') {
-            // For consumable items, decrease item_value in char_inven_item
-            // Ensure quantity does not go below zero
-            const checkSql = `SELECT item_value FROM char_inven_item WHERE char_idx = ? AND user_idx = ? AND item_id = ?`;
-            const currentItem = await queryGameDb(checkSql, [charIndex, userIndex, itemId]);
-
-            if (currentItem.length === 0 || currentItem[0].item_value < quantity) {
-                return res.status(400).json({ msg: 'Player does not have enough of this item.' });
-            }
-
-            const sql = `
-                UPDATE char_inven_item
-                SET item_value = item_value - ?
-                WHERE char_idx = ? AND user_idx = ? AND item_id = ?
-            `;
-            await queryGameDb(sql, [quantity, charIndex, userIndex, itemId]);
-        } else if (itemType === 'equipment') {
-            // For equipment, delete a specific item_idx or the first one found
-            // This is a simplified example. Real equipment might need item_idx to be specified.
-            const sql = `
-                DELETE FROM char_inven_equip
-                WHERE char_idx = ? AND user_idx = ? AND item_id = ?
-                LIMIT 1 -- Delete only one instance
-            `;
-            await queryGameDb(sql, [charIndex, userIndex, itemId]);
-        } else {
-            return res.status(400).json({ msg: 'Invalid item type.' });
-        }
-
-        res.json({ msg: `Successfully took ${quantity} of item ${itemId} from player ${userIndex}.` });
-    } catch (err) {
-        console.error(err.message);
-        res.status(500).send('Server Error');
-    }
-});
-
-module.exports = router;
+// Removed the /take route as requested
 
 /**
  * @route   GET /api/items/lookup/:itemId
@@ -107,15 +91,7 @@ module.exports = router;
 router.get('/lookup/:itemId', auth, (req, res) => {
     const { itemId } = req.params;
 
-    // Mock item data - In a real application, this would come from a game item master data DB
-    const mockItemData = {
-        1001: { name: 'Health Potion', type: 'consumable', description: 'Restores HP.' },
-        1002: { name: 'Mana Potion', type: 'consumable', description: 'Restores MP.' },
-        2001: { name: 'Warrior Sword', type: 'equipment', description: 'A basic sword for warriors.' },
-        2002: { name: 'Mage Staff', type: 'equipment', description: 'A basic staff for mages.' },
-    };
-
-    const item = mockItemData[itemId];
+    const item = getItemData().get(String(itemId));
 
     if (!item) {
         return res.status(404).json({ msg: 'Item not found.' });
@@ -123,3 +99,24 @@ router.get('/lookup/:itemId', auth, (req, res) => {
 
     res.json(item);
 });
+
+/**
+ * @route   GET /api/items/all
+ * @desc    Get all item id and name_kor
+ * @access  Private
+ */
+router.get('/all', auth, (req, res) => {
+    try {
+        const allItems = getItemData();
+        const itemList = Array.from(allItems.values()).map(item => ({
+            id: item.id,
+            name_kor: item.name_kor
+        }));
+        res.json(itemList);
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Server Error');
+    }
+});
+
+module.exports = router;

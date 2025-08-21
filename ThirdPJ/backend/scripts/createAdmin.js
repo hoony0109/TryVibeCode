@@ -1,4 +1,4 @@
-require('dotenv').config({ path: 'E:/hoony/VibeCode/ThirdPJ/backend/.env' }); // Load environment variables from .env file
+require('dotenv').config({ path: __dirname + '/../.env' }); // Load environment variables from .env file
 const bcrypt = require('bcryptjs');
 const { operationDb } = require('../config/mysql');
 

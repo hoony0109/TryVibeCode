@@ -1,3 +1,4 @@
+
 .player-details h3 {
     color: #fbecec;
     margin-top: 0;
@@ -115,4 +116,50 @@
     display: flex;
     gap: 10px;
     margin-top: 20px;
+}
+
+/* Styles for ItemListViewer */
+.item-viewer-container {
+    padding: 10px;
+    background-color: #162447;
+    min-width: 500px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3a3a5e;
+    border-radius: 5px;
+    background-color: #1e1e3f;
+    color: #e0e0e0;
+}
+
+.item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.item-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #3a3a5e;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-list li:hover {
+    background-color: #2a3b5a;
+}
+
+.item-list .item-id {
+    color: #b8c1ec;
+    font-size: 12px;
 }

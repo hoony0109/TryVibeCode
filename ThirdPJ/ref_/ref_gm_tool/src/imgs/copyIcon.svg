@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="50" height="50"
+viewBox="0 0 224 224"
+style=" fill:#000000;">
+
+    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+
+    <path d="M0,224v-224h224v224z" fill="none"></path>
+
+        <g fill="#cccccc">
+
+            <g id="surface1">
+
+                <path d="M85.12,0v26.88l62.72,62.72v98.56h76.16v-125.44h-62.72v-62.72zM170.24,2.66v51.1h51.1zM0,35.84v188.16h138.88v-125.44h-62.72v-62.72zM85.12,38.5v51.1h51.1z">
+
+                </path>
+            </g>
+        </g>
+    </g>
+    
+</svg>

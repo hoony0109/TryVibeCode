@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+	<Data Type="9999" ID="61100001" Name_Standard="검사의 길" Code="IDS_Title_Name_61100001" Name_KR="검사의 길" Name_CN="剑客之路" Name_TW="劍客之路" Name_VN="Đường Kiếm Khách" Name_EN="Path of a Swordsman"/>
+	<Data Type="9999" ID="61100002" Name_Standard="대력가의 길" Code="IDS_Title_Name_61100002" Name_KR="대력가의 길" Name_CN="大力士之路" Name_TW="大力士之路" Name_VN="Đường Đại Lực Sĩ" Name_EN="Path of a Herculean"/>
+	<Data Type="9999" ID="61100003" Name_Standard="궁수의 길" Code="IDS_Title_Name_61100003" Name_KR="궁수의 길" Name_CN="弓箭手之路" Name_TW="弓箭手之路" Name_VN="Đường Cung Thủ" Name_EN="Path of an Archer"/>
+	<Data Type="9999" ID="61100004" Name_Standard="선인의 길" Code="IDS_Title_Name_61100004" Name_KR="선인의 길" Name_CN="仙人之路" Name_TW="仙人之路" Name_VN="Đường Tiên Nhân" Name_EN="Path of a Sage"/>
+	<Data Type="9999" ID="62100001" Name_Standard="숙련된 검사" Code="IDS_Title_Name_62100001" Name_KR="숙련된 검사" Name_CN="熟练的剑客" Name_TW="熟練的劍客" Name_VN="Kiếm Khách Thuần Thục" Name_EN="Skilled Swordsman"/>
+	<Data Type="9999" ID="62100002" Name_Standard="숙련된 대력가" Code="IDS_Title_Name_62100002" Name_KR="숙련된 대력가" Name_CN="熟练的大力士" Name_TW="熟練的大力士" Name_VN="Đại Lực Sĩ Thuần Thục" Name_EN="Skilled Herculean"/>
+	<Data Type="9999" ID="62100003" Name_Standard="숙련된 궁수" Code="IDS_Title_Name_62100003" Name_KR="숙련된 궁수" Name_CN="熟练的弓箭手" Name_TW="熟練的弓箭手" Name_VN="Cung Thủ Thuần Thục" Name_EN="Skilled Archer"/>
+	<Data Type="9999" ID="62100004" Name_Standard="숙련된 선인" Code="IDS_Title_Name_62100004" Name_KR="숙련된 선인" Name_CN="熟练的仙人" Name_TW="熟練的仙人" Name_VN="Tiên Nhân Thuần Thục" Name_EN="Skilled Sage"/>
+	<Data Type="9999" ID="63100001" Name_Standard="천신의 아들" Code="IDS_Title_Name_63100001" Name_KR="천신의 아들" Name_CN="天神之子" Name_TW="天神之子" Name_VN="Con Của Thiên Thần" Name_EN="Son of the Celestial"/>
+	<Data Type="9999" ID="63100002" Name_Standard="경계를 지키는 자" Code="IDS_Title_Name_63100002" Name_KR="경계를 지키는 자" Name_CN="守护边界之人" Name_TW="守護邊界之人" Name_VN="Người Bảo Vệ Biên Giới" Name_EN="Guardian of Boundaries"/>
+	<Data Type="9999" ID="63100003" Name_Standard="용국의 영웅" Code="IDS_Title_Name_63100003" Name_KR="용국의 영웅" Name_CN="龙国的英雄" Name_TW="龍國的英雄" Name_VN="Anh Hùng Long Quốc" Name_EN="Hero of the Dragon Kingdom"/>
+	<Data Type="9999" ID="63100004" Name_Standard="이치를 깨달은 자" Code="IDS_Title_Name_63100004" Name_KR="이치를 깨달은 자" Name_CN="顿悟之人" Name_TW="頓悟之人" Name_VN="Người Giác Ngộ" Name_EN="Enlightened"/>
+	<Data Type="9999" ID="64830001" Name_Standard="뛰어난 전사" Code="IDS_Title_Name_65830001" Name_KR="뛰어난 전사" Name_CN="出色的战士" Name_TW="出色的戰士" Name_VN="Chiến Sĩ Xuất Sắc" Name_EN="Great Warrior"/>
+	<Data Type="9999" ID="64830002" Name_Standard="뛰어난 수문장" Code="IDS_Title_Name_65830002" Name_KR="뛰어난 수문장" Name_CN="出色的守卫长" Name_TW="出色的守衛長" Name_VN="Tướng Gác Cổng Xuất Sắc" Name_EN="Great Gatekeeper"/>
+	<Data Type="9999" ID="64830003" Name_Standard="뛰어난 헌터" Code="IDS_Title_Name_65830003" Name_KR="뛰어난 헌터" Name_CN="出色的猎人" Name_TW="出色的獵人" Name_VN="Thợ Săn Xuất Sắc" Name_EN="Great Hunter"/>
+	<Data Type="9999" ID="64830004" Name_Standard="뛰어난 선인" Code="IDS_Title_Name_65830004" Name_KR="뛰어난 선인" Name_CN="出色的仙人" Name_TW="出色的仙人" Name_VN="Tiên Nhân Xuất Sắc" Name_EN="Great Sage"/>
+	<Data Type="9999" ID="64110001" Name_Standard="사선에 선 영웅들" Code="IDS_Title_Name_64110001" Name_KR="사선에 선 영웅들" Name_CN="面临死亡关头的英雄们" Name_TW="面臨死亡關頭的英雄們" Name_VN="Anh Hùng Đối Diện Với Cái Chết" Name_EN="Heroes Risking Lives"/>
+	<Data Type="9999" ID="64110002" Name_Standard="인연이 닿는 자" Code="IDS_Title_Name_64110002" Name_KR="인연이 닿는 자" Name_CN="结缘之人" Name_TW="結緣之人" Name_VN="Người Kết Duyên" Name_EN="Matchmaker"/>
+	<Data Type="9999" ID="64110003" Name_Standard="천계의 축복" Code="IDS_Title_Name_64110003" Name_KR="천계의 축복" Name_CN="天界的祝福" Name_TW="天界的祝福" Name_VN="Chúc Phúc Thiên Giới" Name_EN="Heavenworld's Blessing"/>
+	<Data Type="9999" ID="64110004" Name_Standard="겸손과 오만" Code="IDS_Title_Name_64110004" Name_KR="겸손과 오만" Name_CN="谦虚与傲慢" Name_TW="謙虛與傲慢" Name_VN="Khiêm Tốn Và Kiêu Ngạo" Name_EN="Modesty and Arrogance"/>
+	<Data Type="9999" ID="64110005" Name_Standard="불협화음" Code="IDS_Title_Name_64110005" Name_KR="불협화음" Name_CN="不协调" Name_TW="不協調" Name_VN="Không Hòa Hợp" Name_EN="Uncoordinated"/>
+	<Data Type="9999" ID="64110006" Name_Standard="의로운 자들" Code="IDS_Title_Name_64110006" Name_KR="의로운 자들" Name_CN="有义之人" Name_TW="有義之人" Name_VN="Người Có Nghĩa" Name_EN="Righteous Beings"/>
+	<Data Type="9999" ID="65111001" Name_Standard="미래의 영웅" Code="IDS_Title_Name_65111001" Name_KR="미래의 영웅" Name_CN="未来的英雄" Name_TW="未來的英雄" Name_VN="Anh Hùng Tương Lai" Name_EN="Future Hero"/>
+	<Data Type="9999" ID="65111002" Name_Standard="신과 함께" Code="IDS_Title_Name_65111002" Name_KR="신과 함께" Name_CN="与神同在" Name_TW="與神同在" Name_VN="Ở Cùng Thần" Name_EN="Being with God"/>
+	<Data Type="9999" ID="65111003" Name_Standard="극에 달한 자들" Code="IDS_Title_Name_65111003" Name_KR="극에 달한 자들" Name_CN="登峰造极的人们" Name_TW="登峰造極的人們" Name_VN="Người Đạt Đến Đỉnh Cao" Name_EN="Reaching the Top"/>
+	<Data Type="9999" ID="66111101" Name_Standard="진정한 영웅들" Code="IDS_Title_Name_66111101" Name_KR="진정한 영웅들" Name_CN="真正的英雄们" Name_TW="真正的英雄們" Name_VN="Anh Hùng Chân Chính" Name_EN="True Heroes"/>
+	<Data Type="9999" ID="67811111" Name_Standard="전투의 달인들" Code="IDS_Title_Name_67811111" Name_KR="전투의 달인들" Name_CN="战斗的达人们" Name_TW="戰鬥的達人們" Name_VN="Bậc Thầy Chiến Đấu" Name_EN="Masters of Battles"/>
+	<Data Type="9999" ID="61400001" Name_Standard="초보 검사" Code="IDS_Title_Name_61400001" Name_KR="초보 검사" Name_CN="新使剑客" Name_TW="新使劍客" Name_VN="Kiếm Khách Tân Thủ " Name_EN="Rookie Swordsman"/>
+	<Data Type="9999" ID="61400002" Name_Standard="초보 대력가" Code="IDS_Title_Name_61400002" Name_KR="초보 대력가" Name_CN="新使大力士" Name_TW="新使大力士" Name_VN="Đại Lực Sĩ Tân Thủ" Name_EN="Rookie Herculean"/>
+	<Data Type="9999" ID="61400003" Name_Standard="초보 궁수" Code="IDS_Title_Name_61400003" Name_KR="초보 궁수" Name_CN="新手弓箭手" Name_TW="新手弓箭手" Name_VN="Cung Thủ Tân Thủ" Name_EN="Rookie Archer"/>
+	<Data Type="9999" ID="61400004" Name_Standard="초보 선인" Code="IDS_Title_Name_61400004" Name_KR="초보 선인" Name_CN="新使仙人" Name_TW="新使仙人" Name_VN="Tiên Nhân Tân Thủ" Name_EN="Rookie Sage"/>
+	<Data Type="9999" ID="62400001" Name_Standard="검사" Code="IDS_Title_Name_62400001" Name_KR="검사" Name_CN="剑客" Name_TW="劍客" Name_VN="Kiếm Khách" Name_EN="Swordsman"/>
+	<Data Type="9999" ID="62400002" Name_Standard="대력가" Code="IDS_Title_Name_62400002" Name_KR="대력가" Name_CN="大力士" Name_TW="大力士" Name_VN="Đại Lực Sĩ" Name_EN="Herculean"/>
+	<Data Type="9999" ID="62400003" Name_Standard="궁수" Code="IDS_Title_Name_62400003" Name_KR="궁수" Name_CN="弓箭手" Name_TW="弓箭手" Name_VN="Cung Thủ" Name_EN="Archer"/>
+	<Data Type="9999" ID="62400004" Name_Standard="선인" Code="IDS_Title_Name_62400004" Name_KR="선인" Name_CN="仙人" Name_TW="仙人" Name_VN="Tiên Nhân" Name_EN="Sage"/>
+	<Data Type="9999" ID="63400001" Name_Standard="베테랑 검사" Code="IDS_Title_Name_63400001" Name_KR="베테랑 검사" Name_CN="纯熟剑客" Name_TW="純熟劍客" Name_VN="Kiếm Khách Kỳ Cựu" Name_EN="Experienced Swordsman"/>
+	<Data Type="9999" ID="63400002" Name_Standard="베테랑 대력가" Code="IDS_Title_Name_63400002" Name_KR="베테랑 대력가" Name_CN="纯熟大力士" Name_TW="純熟大力士" Name_VN="Đại Lực Sĩ Kỳ Cựu" Name_EN="Experienced Herculean"/>
+	<Data Type="9999" ID="63400003" Name_Standard="베테랑 궁수" Code="IDS_Title_Name_63400003" Name_KR="베테랑 궁수" Name_CN="纯熟弓箭手" Name_TW="純熟弓箭手" Name_VN="Cung Thủ Kỳ Cựu" Name_EN="Experienced Archer"/>
+	<Data Type="9999" ID="63400004" Name_Standard="베테랑 선인" Code="IDS_Title_Name_63400004" Name_KR="베테랑 선인" Name_CN="纯熟仙人" Name_TW="純熟仙人" Name_VN="Tiên Nhân Kỳ Cựu" Name_EN="Experienced Sage"/>
+	<Data Type="9999" ID="64400001" Name_Standard="특급 검사" Code="IDS_Title_Name_64400001" Name_KR="특급 검사" Name_CN="特级剑客" Name_TW="特級劍客" Name_VN="Kiếm Khách Đặc Cấp" Name_EN="Exceptional Swordsman"/>
+	<Data Type="9999" ID="64400002" Name_Standard="특급 대력가" Code="IDS_Title_Name_64400002" Name_KR="특급 대력가" Name_CN="特级大力士" Name_TW="特級大力士" Name_VN="Đại Lực Sĩ Đặc Cấp" Name_EN="Exceptional Herculean"/>
+	<Data Type="9999" ID="64400003" Name_Standard="특급 궁수" Code="IDS_Title_Name_64400003" Name_KR="특급 궁수" Name_CN="特级弓箭手" Name_TW="特級弓箭手" Name_VN="Cung Thủ Đặc Cấp" Name_EN="Exceptional Archer"/>
+	<Data Type="9999" ID="64400004" Name_Standard="특급 선인" Code="IDS_Title_Name_64400004" Name_KR="특급 선인" Name_CN="特级仙人" Name_TW="特級仙人" Name_VN="Tiên Nhân Đặc Cấp" Name_EN="Exceptional Sage"/>
+	<Data Type="9999" ID="65400001" Name_Standard="마스터 검사" Code="IDS_Title_Name_65400001" Name_KR="마스터 검사" Name_CN="大师剑客" Name_TW="大使劍客" Name_VN="Bậc Thầy Kiếm Khách" Name_EN="Master Swordsman"/>
+	<Data Type="9999" ID="65400002" Name_Standard="마스터 대력가" Code="IDS_Title_Name_65400002" Name_KR="마스터 대력가" Name_CN="大师大力士" Name_TW="大使大力士" Name_VN="Bậc Thầy Đại Lực Sĩ" Name_EN="Master Herculean"/>
+	<Data Type="9999" ID="65400003" Name_Standard="마스터 궁수" Code="IDS_Title_Name_65400003" Name_KR="마스터 궁수" Name_CN="大师弓箭手" Name_TW="大使弓箭手" Name_VN="Bậc Thầy Cung Thủ" Name_EN="Master Archer"/>
+	<Data Type="9999" ID="65400004" Name_Standard="마스터 선인" Code="IDS_Title_Name_65400004" Name_KR="마스터 선인" Name_CN="大师仙人" Name_TW="大使仙人" Name_VN="Bậc Thầy Tiên Nhân" Name_EN="Master Sage"/>
+	<Data Type="9999" ID="66400001" Name_Standard="용맹한 전사" Code="IDS_Title_Name_66400001" Name_KR="용맹한 전사" Name_CN="勇猛的战士" Name_TW="勇猛的戰士" Name_VN="Chiến Sĩ Dũng Mãnh" Name_EN="Brave Warrior"/>
+	<Data Type="9999" ID="66400002" Name_Standard="용맹한 수문장" Code="IDS_Title_Name_66400002" Name_KR="용맹한 수문장" Name_CN="勇猛的守卫长" Name_TW="勇猛的守衛長" Name_VN="Tướng Gác Cổng Dũng Mãnh" Name_EN="Brave Gatekeeper"/>
+	<Data Type="9999" ID="66400003" Name_Standard="용맹한 헌터" Code="IDS_Title_Name_66400003" Name_KR="용맹한 헌터" Name_CN="勇猛的猎人" Name_TW="勇猛的獵人" Name_VN="Thợ Săn Dũng Mãnh" Name_EN="Brave Hunter"/>
+	<Data Type="9999" ID="66400004" Name_Standard="용맹한 선인" Code="IDS_Title_Name_66400004" Name_KR="용맹한 선인" Name_CN="勇猛的仙人" Name_TW="勇猛的仙人" Name_VN="Tiên Nhân Dũng Mãnh" Name_EN="Brave Sage"/>
+	<Data Type="9999" ID="67888801" Name_Standard="전장의 마에스트로" Code="IDS_Title_Name_67888801" Name_KR="전장의 마에스트로" Name_CN="战场的指挥者" Name_TW="戰場的指揮者" Name_VN="Kẻ Chỉ Huy Chiến Trường" Name_EN="Commander of the Battlefield"/>
+	<Data Type="9999" ID="61200001" Name_Standard="청룡 하급 헌터" Code="IDS_Title_Name_61200001" Name_KR="청룡 하급 헌터" Name_CN="青龙低级猎人" Name_TW="沙門下級獵人" Name_VN="Thợ Săn Thanh Long-Thấp" Name_EN="Azure Dragon Tier 1 Hunter"/>
+	<Data Type="9999" ID="61200002" Name_Standard="현무 하급 헌터" Code="IDS_Title_Name_61200002" Name_KR="현무 하급 헌터" Name_CN="玄武低级猎人" Name_TW="玄武下級獵人" Name_VN="Thợ Săn Huyền Vũ-Thấp" Name_EN="Black Tortoise Tier 1 Hunter"/>
+	<Data Type="9999" ID="61200003" Name_Standard="주작 하급 헌터" Code="IDS_Title_Name_61200003" Name_KR="주작 하급 헌터" Name_CN="朱雀低级猎人" Name_TW="蓋婭下級獵人" Name_VN="Thợ Săn Chu Tước-Thấp" Name_EN="Vermilion Bird Tier 1 Hunter"/>
+	<Data Type="9999" ID="61200004" Name_Standard="백호 하급 헌터" Code="IDS_Title_Name_61200004" Name_KR="백호 하급 헌터" Name_CN="白虎低级猎人" Name_TW="耀瑄下級獵人" Name_VN="Thợ Săn Bạch Hổ-Thấp" Name_EN="White Tiger Tier 1 Hunter"/>
+	<Data Type="9999" ID="62888835" Name_Standard="하수 악귀 헌터" Code="IDS_Title_Name_62888835" Name_KR="하수 악귀 헌터" Name_CN="新进恶魔猎人" Name_TW="新進惡魔獵人" Name_VN="Thợ Săn Ác Ma Tân Thủ" Name_EN="Rookie Demon Hunter"/>
+	<Data Type="9999" ID="62200001" Name_Standard="청룡 중급 헌터" Code="IDS_Title_Name_62200001" Name_KR="청룡 중급 헌터" Name_CN="青龙中阶猎人" Name_TW="沙門中階獵人" Name_VN="Thợ Săn Thanh Long-Trung" Name_EN="Azure Dragon Tier 2 Hunter"/>
+	<Data Type="9999" ID="62200002" Name_Standard="현무 중급 헌터" Code="IDS_Title_Name_62200002" Name_KR="현무 중급 헌터" Name_CN="玄武中阶猎人" Name_TW="玄武中階獵人" Name_VN="Thợ Săn Huyền Vũ-Trung" Name_EN="Black Tortoise Tier 2 Hunter"/>
+	<Data Type="9999" ID="62200003" Name_Standard="주작 중급 헌터" Code="IDS_Title_Name_62200003" Name_KR="주작 중급 헌터" Name_CN="朱雀中阶猎人" Name_TW="蓋婭中階獵人" Name_VN="Thợ Săn Chu Tước-Trung" Name_EN="Vermilion Bird Tier 2 Hunter"/>
+	<Data Type="9999" ID="62200004" Name_Standard="백호 중급 헌터" Code="IDS_Title_Name_62200004" Name_KR="백호 중급 헌터" Name_CN="白虎中阶猎人" Name_TW="耀瑄中階獵人" Name_VN="Thợ Săn Bạch Hổ-Trung" Name_EN="White Tiger Tier 2 Hunter"/>
+	<Data Type="9999" ID="63888835" Name_Standard="중수 악귀 헌터" Code="IDS_Title_Name_63888835" Name_KR="중수 악귀 헌터" Name_CN="入门恶魔猎人" Name_TW="入門惡魔獵人" Name_VN="Thợ Săn Ác Ma Nhập Môn" Name_EN="Experienced Demon Hunter"/>
+	<Data Type="9999" ID="63200001" Name_Standard="청룡 상급 헌터" Code="IDS_Title_Name_63200001" Name_KR="청룡 상급 헌터" Name_CN="青龙高级猎人" Name_TW="沙門高階獵人" Name_VN="Thợ Săn Thanh Long-Cao" Name_EN="Azure Dragon Superior Hunter"/>
+	<Data Type="9999" ID="63200002" Name_Standard="현무 상급 헌터" Code="IDS_Title_Name_63200002" Name_KR="현무 상급 헌터" Name_CN="玄武高级猎人" Name_TW="玄武高階獵人" Name_VN="Thợ Săn Huyền Vũ-Cao" Name_EN="Black Tortoise Superior Hunter"/>
+	<Data Type="9999" ID="63200003" Name_Standard="주작 상급 헌터" Code="IDS_Title_Name_63200003" Name_KR="주작 상급 헌터" Name_CN="朱雀高级猎人" Name_TW="蓋婭高階獵人" Name_VN="Thợ Săn Chu Tước-Cao" Name_EN="Vermilion Bird Superior Hunter"/>
+	<Data Type="9999" ID="63200004" Name_Standard="백호 상급 헌터" Code="IDS_Title_Name_63200004" Name_KR="백호 상급 헌터" Name_CN="白虎高级猎人" Name_TW="耀瑄高階獵人" Name_VN="Thợ Săn Bạch Hổ-Cao" Name_EN="White Tiger Superior Hunter"/>
+	<Data Type="9999" ID="64888835" Name_Standard="고수 악귀 헌터" Code="IDS_Title_Name_64888835" Name_KR="고수 악귀 헌터" Name_CN="高使恶魔猎人" Name_TW="高使惡魔獵人" Name_VN="Thợ Săn Ác Ma Cao Thủ" Name_EN="Veteran Demon Hunter"/>
+	<Data Type="9999" ID="65888831" Name_Standard="악귀 마스터" Code="IDS_Title_Name_65888301" Name_KR="악귀 마스터" Name_CN="恶魔大师" Name_TW="惡魔大使" Name_VN="Ác Ma Bậc Thầy " Name_EN="Demon Master"/>
+	<Data Type="9999" ID="66822201" Name_Standard="금강저괴 헌터" Code="IDS_Title_Name_66820001" Name_KR="금강저괴 헌터" Name_CN="金刚杵妖猎人" Name_TW="金剛杵妖獵人" Name_VN="Thợ Săn Kim Cang Yêu" Name_EN="Vajrasaki Hunter"/>
+	<Data Type="9999" ID="66822202" Name_Standard="지국천왕 헌터" Code="IDS_Title_Name_66820002" Name_KR="지국천왕 헌터" Name_CN="地国天王猎人" Name_TW="持國天王獵人" Name_VN="Thợ Săn Thiên Vương" Name_EN="Dhritarashtra Hunter"/>
+	<Data Type="9999" ID="66822203" Name_Standard="득실아귀 헌터" Code="IDS_Title_Name_66820003" Name_KR="득실아귀 헌터" Name_CN="得失饿鬼猎人" Name_TW="氾濫惡鬼獵人" Name_VN="Thợ Săn Ngạ Quỷ Lợi Hại" Name_EN="Legion Preta Hunter"/>
+	<Data Type="9999" ID="66822204" Name_Standard="아수라 헌터" Code="IDS_Title_Name_66820004" Name_KR="아수라 헌터" Name_CN="阿修罗猎人" Name_TW="阿修羅獵人" Name_VN="Thợ Săn Atula" Name_EN="Asura Hunter"/>
+	<Data Type="9999" ID="66822205" Name_Standard="금두꺼비 헌터" Code="IDS_Title_Name_66822205" Name_KR="금두꺼비 헌터" Name_CN="金蟾猎人" Name_TW="金蟾蜍獵人" Name_VN="Thợ Săn Cóc Vàng" Name_EN="Gold Toad Hunter"/>
+	<Data Type="9999" ID="66822206" Name_Standard="은두꺼비 헌터" Code="IDS_Title_Name_66822206" Name_KR="은두꺼비 헌터" Name_CN="银蟾猎人" Name_TW="銀蟾蜍獵人" Name_VN="Thợ Săn Cóc Bạc" Name_EN="Silver Toad Hunter"/>
+	<Data Type="9999" ID="61900006" Name_Standard="채집 입문" Code="IDS_Title_Name_61900006" Name_KR="채집 입문" Name_CN="采集入门" Name_TW="採集入門" Name_VN="Thu Thập-Nhập Môn" Name_EN="Newbie Collector"/>
+	<Data Type="9999" ID="62900006" Name_Standard="채집 하급" Code="IDS_Title_Name_62900006" Name_KR="채집 하급" Name_CN="采集下级" Name_TW="採集下級" Name_VN="Thu Thập-Thấp" Name_EN="Tier 1 Collector"/>
+	<Data Type="9999" ID="63900006" Name_Standard="채집 중급" Code="IDS_Title_Name_63900006" Name_KR="채집 중급" Name_CN="采集中级" Name_TW="採集中級" Name_VN="Thu Thập-Trung" Name_EN="Tier 2 Collector"/>
+	<Data Type="9999" ID="64900006" Name_Standard="채집 상급" Code="IDS_Title_Name_64900006" Name_KR="채집 상급" Name_CN="采集高级" Name_TW="採集高級" Name_VN="Thu Thập-Cao " Name_EN="Tier 3 Collector "/>
+	<Data Type="9999" ID="65900006" Name_Standard="채칩 고수" Code="IDS_Title_Name_65900006" Name_KR="채칩 고수" Name_CN="采集高手" Name_TW="採集高手" Name_VN="Thu Thập-Cao Thủ" Name_EN="Master Collector"/>
+	<Data Type="9999" ID="66710001" Name_Standard="전장의 영웅" Code="IDS_Title_Name_66710001" Name_KR="전장의 영웅" Name_CN="真正的英雄" Name_TW="真正的英雄" Name_VN="Anh Hùng Chân Chính" Name_EN="Battlefield Hero"/>
+	<Data Type="9999" ID="66700002" Name_Standard="전장의 화신" Code="IDS_Title_Name_66710002" Name_KR="전장의 화신" Name_CN="真正的火神" Name_TW="真正的火神" Name_VN="Hỏa Thần Chân Chính" Name_EN="Battlefield Warrior"/>
+	<Data Type="9999" ID="66700003" Name_Standard="전장의 사신" Code="IDS_Title_Name_66710003" Name_KR="전장의 사신" Name_CN="真正的死神" Name_TW="真正的死神" Name_VN="Tử Thần Chân Chính" Name_EN="Battlefield Reaper"/>
+	<Data Type="9999" ID="66700004" Name_Standard="전쟁의 사신" Code="IDS_Title_Name_66710004" Name_KR="전쟁의 사신" Name_CN="战争死神" Name_TW="戰爭死神" Name_VN="Tử Thần Chiến Tranh" Name_EN="Reaper of War"/>
+	<Data Type="9999" ID="66710005" Name_Standard="정복자" Code="IDS_Title_Name_66710005" Name_KR="정복자" Name_CN="征服者" Name_TW="征服者" Name_VN="Kẻ Chinh Phục" Name_EN="Conqueror"/>
+	<Data Type="9999" ID="66700006" Name_Standard="황금왕" Code="IDS_Title_Name_66700006" Name_KR="황금왕" Name_CN="黄金王" Name_TW="黃金王" Name_VN="Hoàng Kim Vương" Name_EN="Golden King"/>
+	<Data Type="9999" ID="66700007" Name_Standard="대성자" Code="IDS_Title_Name_66700007" Name_KR="대성자" Name_CN="大圣者" Name_TW="大聖者" Name_VN="Đại Thánh Nhân" Name_EN="Great Saint"/>
+	<Data Type="9999" ID="66700008" Name_Standard="신왕" Code="IDS_Title_Name_66700008" Name_KR="신왕" Name_CN="神王" Name_TW="神王" Name_VN="Vương Thần" Name_EN="God King"/>
+	<Data Type="9999" ID="66700009" Name_Standard="천왕" Code="IDS_Title_Name_66700009" Name_KR="천왕" Name_CN="天王" Name_TW="天王" Name_VN="Thiên Vương" Name_EN="Heavenly King"/>
+	<Data Type="9999" ID="66700011" Name_Standard="절대자" Code="IDS_Title_Name_66700011" Name_KR="절대자" Name_CN="绝对者" Name_TW="絕對者" Name_VN="Kẻ Tuyệt Đối" Name_EN="The Absolute"/>
+	<Data Type="9999" ID="66750015" Name_Standard="신규&amp;복귀 환영" Code="IDS_Title_Name_66750015" Name_KR="신규&amp;복귀 환영" Name_CN="新的和回归的欢迎" Name_TW="新的和回歸的歡迎" Name_VN="Chào mừng mới &amp; trở lại" Name_EN="New &amp; Returning Welcome"/>
+	<Data Type="9999" ID="66750016" Name_Standard="BJ" Code="IDS_BJTitle_Name" Name_KR="BJ" Name_CN="BJ" Name_TW="BJ" Name_VN="BJ" Name_EN="BJ"/>
+	<Data Type="9999" ID="66750101" Name_Standard="수살흑철" Code="IDS_Title_Name_66750101" Name_KR="`" Name_CN="首杀黑铁" Name_TW="수살흑철" Name_VN="수살흑철" Name_EN="수살흑철"/>
+	<Data Type="9999" ID="66750102" Name_Standard="수살청동" Code="IDS_Title_Name_66750102" Name_KR="수살청동" Name_CN="首杀青铜" Name_TW="수살청동" Name_VN="수살청동" Name_EN="수살청동"/>
+	<Data Type="9999" ID="66750103" Name_Standard="수살백은" Code="IDS_Title_Name_66750103" Name_KR="수살백은" Name_CN="首杀白银" Name_TW="수살백은" Name_VN="수살백은" Name_EN="수살백은"/>
+	<Data Type="9999" ID="66750104" Name_Standard="수살황김" Code="IDS_Title_Name_66750104" Name_KR="수살황김" Name_CN="首杀黄金" Name_TW="수살황김" Name_VN="수살황김" Name_EN="수살황김"/>
+	<Data Type="9999" ID="66750105" Name_Standard="수살박김" Code="IDS_Title_Name_66750105" Name_KR="수살박김" Name_CN="首杀铂金" Name_TW="수살박김" Name_VN="수살박김" Name_EN="수살박김"/>
+	<Data Type="9999" ID="66750106" Name_Standard="수살첩석" Code="IDS_Title_Name_66750106" Name_KR="수살첩석" Name_CN="首杀钻石" Name_TW="수살첩석" Name_VN="수살첩석" Name_EN="수살첩석"/>
+	<Data Type="9999" ID="66750107" Name_Standard="수살왕자" Code="IDS_Title_Name_66750107" Name_KR="수살왕자" Name_CN="首杀王者" Name_TW="수살왕자" Name_VN="수살왕자" Name_EN="수살왕자"/>
+	<Data Type="9999" ID="66750108" Name_Standard="수살초범" Code="IDS_Title_Name_66750108" Name_KR="수살초범" Name_CN="首杀超凡" Name_TW="수살초범" Name_VN="수살초범" Name_EN="수살초범"/>
+	<Data Type="9999" ID="66750109" Name_Standard="수살패주" Code="IDS_Title_Name_66750109" Name_KR="수살패주" Name_CN="首杀霸主" Name_TW="수살패주" Name_VN="수살패주" Name_EN="수살패주"/>
+	<Data Type="9999" ID="66750110" Name_Standard="수살천선" Code="IDS_Title_Name_66750110" Name_KR="수살천선" Name_CN="首杀天仙" Name_TW="수살천선" Name_VN="수살천선" Name_EN="수살천선"/>
+	<Data Type="9999" ID="66750111" Name_Standard="수살제왕" Code="IDS_Title_Name_66750111" Name_KR="수살제왕" Name_CN="首杀帝王" Name_TW="수살제왕" Name_VN="수살제왕" Name_EN="수살제왕"/>
+	<Data Type="9999" ID="66750112" Name_Standard="관절고금" Code="IDS_Title_Name_66750112" Name_KR="관절고금" Name_CN="冠绝古今" Name_TW="관절고금" Name_VN="관절고금" Name_EN="관절고금"/>
+	<Data Type="9999" ID="66750201" Name_Standard="일마평천" Code="IDS_Title_Name_66750201" Name_KR="일마평천" Name_CN="一马平川" Name_TW="일마평천" Name_VN="일마평천" Name_EN="일마평천"/>
+	<Data Type="9999" ID="66750202" Name_Standard="이룡희주" Code="IDS_Title_Name_66750202" Name_KR="이룡희주" Name_CN="二龙戏珠" Name_TW="이룡희주" Name_VN="이룡희주" Name_EN="이룡희주"/>
+	<Data Type="9999" ID="66750203" Name_Standard="삼인위중" Code="IDS_Title_Name_66750203" Name_KR="삼인위중" Name_CN="三人为众" Name_TW="삼인위중" Name_VN="삼인위중" Name_EN="삼인위중"/>
+	<Data Type="9999" ID="66750204" Name_Standard="명양사해" Code="IDS_Title_Name_66750204" Name_KR="명양사해" Name_CN="名扬四海" Name_TW="명양사해" Name_VN="명양사해" Name_EN="명양사해"/>
+	<Data Type="9999" ID="66750205" Name_Standard="오제" Code="IDS_Title_Name_66750205" Name_KR="오제" Name_CN="五帝" Name_TW="오제" Name_VN="오제" Name_EN="오제"/>
+	<Data Type="9999" ID="66750206" Name_Standard="륙도" Code="IDS_Title_Name_66750206" Name_KR="륙도" Name_CN="六道" Name_TW="륙도" Name_VN="륙도" Name_EN="륙도"/>
+	<Data Type="9999" ID="66750207" Name_Standard="칠렬" Code="IDS_Title_Name_66750207" Name_KR="칠렬" Name_CN="七烈" Name_TW="칠렬" Name_VN="칠렬" Name_EN="칠렬"/>
+	<Data Type="9999" ID="66750208" Name_Standard="팔황" Code="IDS_Title_Name_66750208" Name_KR="팔황" Name_CN="八皇" Name_TW="팔황" Name_VN="팔황" Name_EN="팔황"/>
+	<Data Type="9999" ID="66750209" Name_Standard="구구귀일" Code="IDS_Title_Name_66750209" Name_KR="구구귀일" Name_CN="九九归一" Name_TW="구구귀일" Name_VN="구구귀일" Name_EN="구구귀일"/>
+	<Data Type="9999" ID="66750210" Name_Standard="일보등천" Code="IDS_Title_Name_66750210" Name_KR="일보등천" Name_CN="一步登天" Name_TW="일보등천" Name_VN="일보등천" Name_EN="일보등천"/>
+	<Data Type="9999" ID="66750301" Name_Standard="신장재세" Code="IDS_Title_Name_66750301" Name_KR="신장재세" Name_CN="[FFAF55]神匠在世[-]" Name_TW="신장재세" Name_VN="신장재세" Name_EN="신장재세"/>
+	<Data Type="9999" ID="66750302" Name_Standard="주광보기" Code="IDS_Title_Name_66750302" Name_KR="주광보기" Name_CN="[FFAF55]珠光宝气[-]" Name_TW="주광보기" Name_VN="주광보기" Name_EN="주광보기"/>
+	<Data Type="9999" ID="66750303" Name_Standard="일기절진" Code="IDS_Title_Name_66750303" Name_KR="일기절진" Name_CN="[FFAF55]一骑绝尘[-]" Name_TW="일기절진" Name_VN="일기절진" Name_EN="일기절진"/>
+	<Data Type="9999" ID="66750304" Name_Standard="개세화한" Code="IDS_Title_Name_66750304" Name_KR="개세화한" Name_CN="[FFAF55]盖世华翰[-]" Name_TW="개세화한" Name_VN="개세화한" Name_EN="개세화한"/>
+	<Data Type="9999" ID="66750305" Name_Standard="신력증폭" Code="IDS_Title_Name_66750305" Name_KR="신력증폭" Name_CN="[FFAF55]神力增幅[-]" Name_TW="신력증폭" Name_VN="신력증폭" Name_EN="신력증폭"/>
+	<Data Type="9999" ID="66750306" Name_Standard="개세무쌍" Code="IDS_Title_Name_66750306" Name_KR="개세무쌍" Name_CN="[FFAF55]盖世无双[-]" Name_TW="개세무쌍" Name_VN="개세무쌍" Name_EN="개세무쌍"/>
+	<Data Type="9999" ID="66750307" Name_Standard="독고구패" Code="IDS_Title_Name_66750307" Name_KR="독고구패" Name_CN="[FFAF55]独孤求败[-]" Name_TW="독고구패" Name_VN="독고구패" Name_EN="독고구패"/>
+</Root>

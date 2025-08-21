@@ -1,0 +1,638 @@
+@import 'utils';
+
+* { transition: all 1s }
+a { color: none; }
+//html{ scroll-behavior: smooth; overflow-x: hidden; background: #c5c2c2}
+html{ overflow-x: hidden; background: #1a1a2e}
+body{ 
+    margin:0; width: 100vw; height: 100vh;  
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+p, span{ color: #e2e8f0; line-height: 1.6rem; }
+.header img, button, li { cursor:  pointer; }
+
+.header a:hover, 
+button:hover,
+li:hover,
+input:hover{ box-shadow: $box-shadow-hard; }
+
+.App { 
+    //position: relative; margin: auto; width: 100%; height: 100%;
+    position: relative; margin: auto; width: 100%; height: 100vh;
+    max-width: $xl-desktop-width; min-width: $ipad-width;   
+}
+
+.table{
+    //display: table; width: 100%; height: 100%;
+    display: table; width: 100%; height: 100vh;
+    >.table-cell{ display: table-cell; text-align: center; vertical-align: middle; }
+}
+
+.popup-content{
+    display: table; padding: 10px !important; border: 0 !important;
+    border-radius: 20px;
+    background: rgba(26, 32, 44, 0.95);
+    backdrop-filter: blur(10px);
+    p, span { color: #e2e8f0; }
+    >.contents{ 
+        padding: 10px;
+        .close{ position: absolute; top: 10px; right: 10px; 
+            img{ height: 22px; }
+        }
+        >label{ display:block; font-size: 12px; margin-top: 2px; color: #e2e8f0;}
+        >input {
+            display:block;
+            width: 295px; height: 34px;   margin-top:2px; border: 1px solid #4a5568; text-align:left;
+            border-radius:3px; font-size: 1rem; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+        }
+        >button{
+            display:block;
+            margin-top: 10px;
+            box-shadow: $box-shadow-light;
+            width: 300px; height: 40px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#fcfaff;
+        }
+    }
+}
+
+.header{ height: 50px; background: rgba(26, 32, 44, 0.95); backdrop-filter: blur(10px);
+    >.table-cell{ 
+        >.left{ float:left; margin-top:8px;
+            >div { display: inline-block; margin-left: 10px;
+                >a{ border-radius: 50%;     
+                    >img { height: 36px;  } 
+                }
+                .language-select select {
+                    background: rgba(45, 55, 72, 0.8);
+                    color: #e2e8f0;
+                    border: 1px solid #4a5568;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+            }
+        }
+        >.menu{
+            >.menu-item {
+                display: inline-block;
+                color: #e2e8f0;
+                font-size: 1rem;
+                line-height: 2.5rem;
+                width: 12%;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                text-decoration: none;
+            }
+            >.menu-item:hover { background-color: rgba(102, 126, 234, 0.3)}
+            >.menu-item:active, >.menu-item.active {
+                background-color: rgba(102, 126, 234, 0.5);  width: 12%;
+            } 
+        }
+    }  
+}
+
+//.home-body{ height:1120px; background: #fcfcfd; 
+.home-body{ height:95vh; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); 
+    >.table-cell{
+        >.site-title{ font-size: 2rem; text-align: center; color: #e2e8f0;
+            >img{ display: block; margin: 0px auto; height:400px; }
+            >label{ display:block; font-size:1rem; color:#e2e8f0;  }
+        }
+        >.info{ 
+            display: block; margin: 10px auto; max-width: 400px; height: 50px; border-radius: 10px; 
+            >.username {
+                width: 80%; height: 100%; margin: 10px auto; border:0; text-align:center;
+                background: rgba(45, 55, 72, 0.8); border-radius:10px; font-size:1rem; display:block; color: #e2e8f0;
+            }
+            >.password {
+                width: 80%; height: 100%; margin: 10px auto; border:0; text-align:center;
+                background: rgba(45, 55, 72, 0.8); border-radius:10px; font-size:1rem; display:block; color: #e2e8f0;
+            }
+            >label{ display:block; font-size:0.5rem; color:#fc8181;  }
+            >button{
+                margin-top: 5px; margin-left: 5px; box-shadow: $box-shadow-light;
+                width: 80%; height: 40px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#fcfaff;
+            }
+        }    
+    }
+}
+
+// 모던한 로그인 화면 스타일
+.modern-login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+  background: rgba(26, 32, 44, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-header {
+  margin-bottom: 30px;
+}
+
+.login-logo {
+  height: 80px;
+  margin: 0 auto 20px;
+  display: block;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.login-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin: 0 0 10px;
+  background: linear-gradient(135deg, #667eea, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(102, 126, 234, 0.2);
+  border-radius: 10px;
+  border: 1px solid rgba(102, 126, 234, 0.3);
+}
+
+.user-id, .user-grade {
+  font-size: 0.9rem;
+  color: #cbd5e0;
+  font-weight: 500;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  position: relative;
+}
+
+.modern-input {
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid #4a5568;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: rgba(45, 55, 72, 0.8);
+  color: #e2e8f0;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  
+  &:focus {
+    outline: none;
+    border-color: #667eea;
+    background: rgba(45, 55, 72, 0.9);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+  }
+  
+  &::placeholder {
+    color: #a0aec0;
+  }
+}
+
+.error-message {
+  color: #fc8181;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 10px;
+  background: rgba(252, 129, 129, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(252, 129, 129, 0.3);
+}
+
+.modern-login-btn {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, #5a67d8 0%, #9333ea 100%);
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.welcome-message {
+  text-align: center;
+  
+  p {
+    font-size: 1.5rem;
+    color: #e2e8f0;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+}
+
+.modern-logout-btn {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #e53e3e 0%, #c53030 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(229, 62, 62, 0.3);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(229, 62, 62, 0.4);
+    background: linear-gradient(135deg, #c53030 0%, #9b2c2c 100%);
+  }
+}
+
+// 반응형 디자인
+@media (max-width: 480px) {
+  .login-card {
+    padding: 30px 20px;
+    margin: 10px;
+  }
+  
+  .login-title {
+    font-size: 2rem;
+  }
+  
+  .login-logo {
+    height: 60px;
+  }
+}
+
+//.body{ height: 1120px; background: #fcfcfd; 
+.body{ height: 95vh; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); 
+    >.left-list{ 
+        margin-top: 10px; 
+        margin-left: 1%; 
+        background: rgba(26, 32, 44, 0.9);
+        border: 1px solid #4a5568;
+        float: left;
+        width: 16%;
+        height: 94%;
+//        height: calc(100% - 50px);
+        overflow: auto;
+        >.title{text-align:center; font-size: 1rem; font-weight:bold; background:rgba(102, 126, 234, 0.8); color:#e2e8f0; }
+        >li{ width:100%; text-align:left; font-size:1em; padding-top:2px; padding-bottom:4px; color: #e2e8f0;}
+        >ul{ margin-block-start:0px; margin-block-end: 0px;
+            >li{ width:100%; text-align:left; font-size:1em; padding-top:6px; padding-bottom:2px; color: #e2e8f0;}
+            >ul{ margin-block-start:0px; margin-block-end: 0px;
+                >li{ width:100%; text-align:left; font-size:1em; padding-top:6px; padding-bottom:2px; color: #e2e8f0;} 
+            }
+        }
+    }
+    >.right-top-input{
+        margin-top: 10px; 
+        margin-right: 1%; 
+        background: rgba(26, 32, 44, 0.9);
+        border: 1px solid #4a5568;
+        float: right;
+        width: 81%;
+        height: 33%;
+        text-align: left;
+        overflow: auto;
+        >.title{text-align:center; font-size: 1rem; font-weight:bold; background:rgba(102, 126, 234, 0.8); color:#e2e8f0;}
+        >.info{margin-left:5px;  text-align:left; color:#68d391 }
+        >.coupon_info{
+            margin-left:5px;  
+            text-align:left; 
+            color:#68d391 
+        }
+        >.qianhuan_mail_info{
+            margin-left:5px;  
+            text-align:left; 
+            color:#68d391 
+        }        
+        >.search{ 
+            margin:10px 0px 10px 10px;  // top right bottom left 
+            >label{ margin:10px 0px 0px 15px;    // top right bottom left 
+                display:block; font-size: 16px; color: #e2e8f0;
+            }
+            >.type { 
+                width:150px; height:34px; margin-top:5px; margin-right:5px; 
+                border: 1px solid #4a5568; text-align:center;
+                border-radius:4px; font-size: 1rem; padding: 1px 2px; background: rgba(102, 126, 234, 0.8); color:#e2e8f0;
+            }
+            >input { margin:10px 0px 10px 35px; // top right bottom left 
+                display:block;
+                width: 295px; height: 30px;  margin-top:2px; border: 1px solid #4a5568; text-align:left;
+                border-radius:3px; font-size: 1rem; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+            }
+            >.select {
+                width: 300px; margin-top:2px; border: 1px solid #4a5568; text-align:left;
+                border-radius:3px; font-size: 1rem; padding: 1px 2px; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+            }    
+            >.searchuser { 
+                margin:10px 0 0px 40px; // top right bottom left 
+                >label{ display:block; font-size: 18px; color: #e2e8f0; }
+                >button{
+                    margin:5px 10px 0px 0px; // top right bottom left 
+                    box-shadow: $box-shadow-light;
+                    width: 200px; height: 30px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#e2e8f0;
+                }
+            }
+            >.input-group{
+                margin:0px 0px 0px 10px;   // top right bottom left 
+                >label{ 
+                    margin-right: 10px; /* Adjust spacing between label and input as needed */
+                    width: 150px; /* Adjust label width as needed */
+                    color: #e2e8f0;
+                }
+                >input { 
+                    width: 200px;
+                    height: 30px;
+                    background: rgba(45, 55, 72, 0.8);
+                    color: #e2e8f0;
+                    border: 1px solid #4a5568;
+                }
+                >.input-world{
+                    display: flex;
+                    align-items: center;
+                    >label{ 
+                        white-space: nowrap;
+                        // margin-right: 10px; /* Adjust spacing between label and input as needed */
+                        width: 150px; /* Adjust label width as needed */
+                        height: 25px;
+                        color: #e2e8f0;
+                    }
+                    >input { 
+                        width: 200px;
+                        height: 25px;
+                        background: rgba(45, 55, 72, 0.8);
+                        color: #e2e8f0;
+                        border: 1px solid #4a5568;
+                    }
+                }
+                >.input-character{
+                    >label{ 
+                        margin-right: 10px; /* Adjust spacing between label and input as needed */
+                        width: 150px; /* Adjust label width as needed */
+                        color: #e2e8f0;
+                    }
+                    >input { 
+                        width: 200px;
+                        height: 25px;
+                        background: rgba(45, 55, 72, 0.8);
+                        color: #e2e8f0;
+                        border: 1px solid #4a5568;
+                    }
+                }
+            }
+        }
+        >.coupon_search{ margin:5px 0 10px 10px;
+            >label{ display:block; font-size: 12px; color: #e2e8f0; }
+            >button{
+                margin-top: 5px; box-shadow: $box-shadow-light;
+                width: 200px; height: 30px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#e2e8f0;
+            }            
+        }
+        >.qianhuan_mail_search{ margin:5px 0 10px 10px;
+            >label{ display:block; font-size: 12px; color: #e2e8f0; }
+            >button{
+                margin-top: 5px; box-shadow: $box-shadow-light;
+                width: 200px; height: 30px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#e2e8f0;
+            }            
+        }        
+        >.complaint_search{ margin:5px 0 10px 10px;
+            >label{ display:block; font-size: 12px; color: #e2e8f0; }
+            >button{
+                margin-top: 5px; box-shadow: $box-shadow-light;
+                width: 200px; height: 30px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#e2e8f0;
+            }            
+        }
+        >.command{ margin:2px 0 10px 50px;
+            >label{ display:block; font-size: 12px; margin-top: 2px; color: #e2e8f0;}
+            >input { display:block; 
+                width: 295px; height: 34px;   margin-top:2px; border: 1px solid #4a5568; text-align:left;
+                border-radius:3px; font-size: 1rem; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+            }
+            >.msg { display:block;
+                width: 80%; height: 34px;  margin-top:2px; border: 1px solid #4a5568; text-align:left;
+                border-radius:3px; font-size: 1rem; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+            }
+            >.select{width: 300px; margin-top:2px; border: 1px solid #4a5568; text-align:left;
+                border-radius:3px; font-size: 1em; padding: 1px 2px; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+            } 
+            >.duration{ margin-top:2px; 
+                >.start-label{ font-size: 12px; margin-top: 2px; color: #e2e8f0; }
+                >.start { 
+                    width: 150px; height: 24px; border: 1px solid #4a5568; text-align:left;
+                    border-radius:3px; font-size: 1rem; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+                }
+                >.middle-label{ margin-left:10px; margin-right:10px; font-size: 12px; margin-top: 2px; color: #e2e8f0;}
+                >.end-label{ margin-left:10px; font-size: 12px; margin-top: 2px; color: #e2e8f0;}
+                >.end { 
+                    width: 150px; height: 24px; margin-left:10px; border: 1px solid #4a5568; text-align:left;
+                    border-radius:3px; font-size: 1rem; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+                }
+                >input { width: 40px; height: 24px; border: 1px solid #4a5568; text-align:left;
+                    border-radius:3px; font-size: 1rem; background: rgba(45, 55, 72, 0.8); color: #e2e8f0;
+                }
+                >.tab-label{ margin-left:50px; font-size: 12px; margin-top: 2px; color: #e2e8f0;}
+            }
+            >.duration-button{
+                margin-top: 10px;  
+                width: 324px; height: 40px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 0px; color:#e2e8f0;
+            } 
+            >button{
+                margin-top: 10px;  
+                width: 300px; height: 40px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 0px; color:#e2e8f0;
+            }    
+        }        
+        >.coupon_command{ 
+            margin:15px 25px ;
+
+            >label{ display:block; font-size: 12px; margin-top: 2px; color: #e2e8f0;}
+            >button{
+                margin-top: 15px; box-shadow: $box-shadow-light;
+                width: 200px; height: 30px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#e2e8f0;
+            }
+        }
+        >.qianhuan_mail_command{ 
+            margin:15px 25px ;
+
+            >label{ display:block; font-size: 12px; margin-top: 2px; color: #e2e8f0;}
+            >button{
+                margin-top: 15px; box-shadow: $box-shadow-light;
+                width: 200px; height: 30px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#e2e8f0;
+            }
+        }        
+        >.complaint_info{
+            margin:15px 25px ;
+
+            >label{ display:block; font-size: 12px; margin-top: 2px; color: #e2e8f0;}
+            >button{
+                margin-top: 15px; box-shadow: $box-shadow-light;
+                width: 300px; height: 40px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#e2e8f0;
+            }            
+        } 
+       
+        >button{
+            margin-left:10px; margin-top: 10px;
+            box-shadow: $box-shadow-light;
+            width: 300px; height: 40px;  background: linear-gradient(135deg, #667eea 0%, #a855f7 100%); border-radius:3px; border: 1px; color:#e2e8f0;
+        }
+    }
+    >.right-middle-result{
+        margin-right: 1%; 
+        background: rgba(26, 32, 44, 0.9);
+        border: 1px solid #4a5568;
+        float: right;
+        margin-top:10px;
+        width: 81%;
+        height: 60%;
+        text-align: left;
+        overflow-x: auto;
+        overflow-y: auto;
+        >.title{text-align:center; font-size:1rem; font-weight:bold; background:rgba(102, 126, 234, 0.8); color:#e2e8f0; 
+            >.export{position: absolute; right:0; margin-right: 30px; font-size: 0.8rem; background: rgba(102, 126, 234, 0.8); border-radius:3px; border: 0px; color:#e2e8f0;}
+        }
+        >.resultInfo{
+//            height: 60vh;
+            width: fit-content;
+            overflow-x: auto;
+            overflow-y: auto;
+            color: #e2e8f0;
+        }
+    }
+}
+
+.footer{ height: 30px; background: rgba(26, 32, 44, 0.95); backdrop-filter: blur(10px);
+    >.table-cell{ 
+        >.copyright{ font-size: 0.8rem; text-align:right; margin-right:2%; color: #e2e8f0;}
+    }
+}
+
+@include max-screen ( $ipad-width ) {
+    *:hover{ box-shadow: none; }
+
+    .App{ width: 100vw; height: 100vh;
+        >.header{ 
+            position: fixed; top: 0; z-index: 100;
+            .right>div{ margin: 0 !important; }
+        }
+        >.home-body { width: 100vw; height: 100vh; }
+        >.body{  margin-top: 50px; width: 100vw; height: 100vh; }
+    }
+}
+
+// ReactSelect 어두운 테마 스타일
+.select-world-custom {
+  .select__control {
+    background: rgba(45, 55, 72, 0.8);
+    border: 1px solid #4a5568;
+    border-radius: 8px;
+    box-shadow: none;
+    
+    &:hover {
+      border-color: #667eea;
+    }
+    
+    &.select__control--is-focused {
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+    }
+  }
+  
+  .select__menu {
+    background: rgba(26, 32, 44, 0.95);
+    border: 1px solid #4a5568;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .select__option {
+    background: rgba(26, 32, 44, 0.95);
+    color: #e2e8f0;
+    
+    &:hover {
+      background: rgba(102, 126, 234, 0.3);
+    }
+    
+    &.select__option--is-focused {
+      background: rgba(102, 126, 234, 0.4);
+    }
+    
+    &.select__option--is-selected {
+      background: rgba(102, 126, 234, 0.6);
+    }
+  }
+  
+  .select__single-value {
+    color: #e2e8f0;
+  }
+  
+  .select__placeholder {
+    color: #a0aec0;
+  }
+  
+  .select__input {
+    color: #e2e8f0;
+  }
+  
+  .select__indicator-separator {
+    background-color: #4a5568;
+  }
+  
+  .select__indicator {
+    color: #e2e8f0;
+    
+    &:hover {
+      color: #667eea;
+    }
+  }
+}
+
+// 라디오 버튼 어두운 테마
+input[type="radio"] {
+  accent-color: #667eea;
+  
+  &:checked {
+    background-color: #667eea;
+    border-color: #667eea;
+  }
+}
+
+// 체크박스 어두운 테마
+input[type="checkbox"] {
+  accent-color: #667eea;
+  
+  &:checked {
+    background-color: #667eea;
+    border-color: #667eea;
+  }
+}

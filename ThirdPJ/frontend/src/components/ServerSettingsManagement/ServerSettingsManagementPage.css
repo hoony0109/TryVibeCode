@@ -1,0 +1,130 @@
+.server-settings-management-page {
+    padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #162447; /* Dark background */
+    color: #e0e0e0; /* Light text */
+}
+
+.server-settings-management-page h2, .server-settings-management-page h3 {
+    color: #b8c1ec; /* Light blue-gray for headings */
+    border-bottom: 2px solid #3a3a5e; /* Darker border */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-card,
+.maintenance-form-card {
+    background-color: #1e1e3f; /* Darker background for cards */
+    border-radius: 10px; /* More rounded corners */
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.info-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light text for content */
+}
+
+.info-card .status-on {
+    color: #e94560; /* Red accent for ON status */
+    font-weight: bold;
+}
+
+.info-card .status-off {
+    color: #5cb85c; /* Green for OFF status */
+    font-weight: bold;
+}
+
+.form-group label {
+    color: #b8c1ec; /* Light blue-gray for labels */
+}
+
+.form-group input[type="datetime-local"] {
+    background-color: #162447; /* Dark background for input */
+    color: #e0e0e0; /* Light text for input */
+    border: 1px solid #3a3a5e; /* Darker border */
+}
+
+.btn-primary {
+    background-color: #e94560; /* Red accent for primary button */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px; /* Slightly less rounded */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f06273; /* Lighter red on hover */
+}
+
+/* IP Block Section Styles */
+.ip-block-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.add-ip-block-form {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+.add-ip-block-form .form-group {
+    flex-grow: 1;
+    margin-bottom: 0;
+}
+
+.add-ip-block-form input,
+.add-ip-block-form select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.ip-block-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+.ip-block-table th, .ip-block-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.ip-block-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.ip-block-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}

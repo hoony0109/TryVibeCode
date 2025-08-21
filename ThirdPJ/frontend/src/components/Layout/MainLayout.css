@@ -3,7 +3,8 @@
     display: flex;
     background-color: #1a1a2e;
     color: #e0e0e0;
-    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden; /* Prevent page-level scroll */
 }
 
 .main-content {
@@ -11,9 +12,12 @@
     margin-left: 250px; /* Same as sidebar width */
     display: flex;
     flex-direction: column;
+    overflow: hidden; /* Prevent content overflow */
 }
 
 .content-area {
     padding: 20px;
     flex-grow: 1;
+    overflow: auto; /* Change to auto to allow scrolling within the content area */
+    background-color: #2c2c3e; /* A slightly lighter dark shade for the content */
 }

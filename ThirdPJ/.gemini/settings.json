@@ -30,13 +30,6 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": { "GITHUB_TOKEN": "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" }
-    },
-	"excel": {
-      "command": "uv run excel-mcp-server",
-      "transport": "sse",
-      "env": {
-        "EXCEL_FILES_PATH": "E:\hoony\VibeCode\ThirdPJ\ref_\ref_meta_data\csv"
-      }
     }
   }
 }

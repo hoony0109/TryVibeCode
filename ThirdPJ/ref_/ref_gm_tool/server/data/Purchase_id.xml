@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+	<Data ID="1001" Shop_ID="10001" Name="绿水晶 120个" Cash_One="6" Purchase_Code_One="shop.code.001" Cash_Aos="6" Purchase_Code_Aos="shop.code.001" Cash_Ios="6" Purchase_Code_Ios="shop.code.001"/>
+	<Data ID="1002" Shop_ID="10002" Name="绿水晶 300个" Cash_One="30" Purchase_Code_One="shop.code.002" Cash_Aos="30" Purchase_Code_Aos="shop.code.002" Cash_Ios="30" Purchase_Code_Ios="shop.code.002"/>
+	<Data ID="1003" Shop_ID="10003" Name="绿水晶 680个" Cash_One="68" Purchase_Code_One="shop.code.003" Cash_Aos="68" Purchase_Code_Aos="shop.code.003" Cash_Ios="68" Purchase_Code_Ios="shop.code.003"/>
+	<Data ID="1004" Shop_ID="10004" Name="绿水晶 980个" Cash_One="98" Purchase_Code_One="shop.code.004" Cash_Aos="98" Purchase_Code_Aos="shop.code.004" Cash_Ios="98" Purchase_Code_Ios="shop.code.004"/>
+	<Data ID="1005" Shop_ID="10005" Name="绿水晶 1280个" Cash_One="128" Purchase_Code_One="shop.code.005" Cash_Aos="128" Purchase_Code_Aos="shop.code.005" Cash_Ios="128" Purchase_Code_Ios="shop.code.005"/>
+	<Data ID="1006" Shop_ID="10006" Name="绿水晶 3280个" Cash_One="328" Purchase_Code_One="shop.code.006" Cash_Aos="328" Purchase_Code_Aos="shop.code.006" Cash_Ios="328" Purchase_Code_Ios="shop.code.006"/>
+	<Data ID="1007" Shop_ID="10007" Name="绿水晶 6480个" Cash_One="648" Purchase_Code_One="shop.code.007" Cash_Aos="648" Purchase_Code_Aos="shop.code.007" Cash_Ios="648" Purchase_Code_Ios="shop.code.007"/>
+	<Data ID="1008" Shop_ID="10008" Name="绿水晶 10000个" Cash_One="1000" Purchase_Code_One="shop.code.008" Cash_Aos="1000" Purchase_Code_Aos="shop.code.008" Cash_Ios="1000" Purchase_Code_Ios="shop.code.008"/>
+	<Data ID="1009" Shop_ID="10009" Name="绿水晶 20000个" Cash_One="2000" Purchase_Code_One="shop.code.009" Cash_Aos="2000" Purchase_Code_Aos="shop.code.009" Cash_Ios="2000" Purchase_Code_Ios="shop.code.009"/>
+	<Data ID="4101" Shop_ID="5001" Name="白银月卡" Cash_One="30" Purchase_Code_One="shop.code.101" Cash_Aos="30" Purchase_Code_Aos="shop.code.101" Cash_Ios="30" Purchase_Code_Ios="shop.code.101"/>
+	<Data ID="4102" Shop_ID="5002" Name="黄金月卡" Cash_One="59" Purchase_Code_One="shop.code.102" Cash_Aos="59" Purchase_Code_Aos="shop.code.102" Cash_Ios="59" Purchase_Code_Ios="shop.code.102"/>
+	<Data ID="4103" Shop_ID="5104" Name="等级达成礼包" Cash_One="68" Purchase_Code_One="shop.code.104" Cash_Aos="68" Purchase_Code_Aos="shop.code.104" Cash_Ios="68" Purchase_Code_Ios="shop.code.104"/>
+	<Data ID="4104" Shop_ID="5007" Name="任务达成礼包" Cash_One="980" Purchase_Code_One="shop.code.107" Cash_Aos="980" Purchase_Code_Aos="shop.code.107" Cash_Ios="980" Purchase_Code_Ios="shop.code.107"/>
+	<Data ID="4105" Shop_ID="5111" Name="绿水晶小基金" Cash_One="68" Purchase_Code_One="shop.code.110" Cash_Aos="68" Purchase_Code_Aos="shop.code.110" Cash_Ios="68" Purchase_Code_Ios="shop.code.110"/>
+	<Data ID="4106" Shop_ID="5112" Name="绿水晶大基金" Cash_One="98" Purchase_Code_One="shop.code.111" Cash_Aos="98" Purchase_Code_Aos="shop.code.111" Cash_Ios="98" Purchase_Code_Ios="shop.code.111"/>
+	<Data ID="4107" Shop_ID="5113" Name="转盘票小基金" Cash_One="68" Purchase_Code_One="shop.code.112" Cash_Aos="68" Purchase_Code_Aos="shop.code.112" Cash_Ios="68" Purchase_Code_Ios="shop.code.112"/>
+	<Data ID="4108" Shop_ID="5114" Name="转盘票大基金" Cash_One="98" Purchase_Code_One="shop.code.113" Cash_Aos="98" Purchase_Code_Aos="shop.code.113" Cash_Ios="98" Purchase_Code_Ios="shop.code.113"/>
+	<Data ID="4110" Shop_ID="110" Name="宝石每日礼包1" Cash_One="128" Purchase_Code_One="shop.code.411" Cash_Aos="128" Purchase_Code_Aos="shop.code.411" Cash_Ios="128" Purchase_Code_Ios="shop.code.411"/>
+	<Data ID="4111" Shop_ID="111" Name="宝石每日礼包2" Cash_One="198" Purchase_Code_One="shop.code.412" Cash_Aos="198" Purchase_Code_Aos="shop.code.412" Cash_Ios="198" Purchase_Code_Ios="shop.code.412"/>
+	<Data ID="4112" Shop_ID="112" Name="SS经验礼包" Cash_One="128" Purchase_Code_One="shop.code.413" Cash_Aos="128" Purchase_Code_Aos="shop.code.413" Cash_Ios="128" Purchase_Code_Ios="shop.code.413"/>
+	<Data ID="4113" Shop_ID="113" Name="SSS经验礼包" Cash_One="328" Purchase_Code_One="shop.code.414" Cash_Aos="328" Purchase_Code_Aos="shop.code.414" Cash_Ios="328" Purchase_Code_Ios="shop.code.414"/>
+	<Data ID="4114" Shop_ID="114" Name="神装周礼包1" Cash_One="128" Purchase_Code_One="shop.code.415" Cash_Aos="128" Purchase_Code_Aos="shop.code.415" Cash_Ios="128" Purchase_Code_Ios="shop.code.415"/>
+	<Data ID="4115" Shop_ID="115" Name="神装周礼包2" Cash_One="198" Purchase_Code_One="shop.code.416" Cash_Aos="198" Purchase_Code_Aos="shop.code.416" Cash_Ios="198" Purchase_Code_Ios="shop.code.416"/>
+	<Data ID="4116" Shop_ID="116" Name="狐狸召唤礼包0" Cash_One="198" Purchase_Code_One="shop.code.417" Cash_Aos="198" Purchase_Code_Aos="shop.code.417" Cash_Ios="198" Purchase_Code_Ios="shop.code.417"/>
+	<Data ID="4117" Shop_ID="117" Name="狐狸召唤礼包1" Cash_One="328" Purchase_Code_One="shop.code.418" Cash_Aos="328" Purchase_Code_Aos="shop.code.418" Cash_Ios="328" Purchase_Code_Ios="shop.code.418"/>
+	<Data ID="4118" Shop_ID="118" Name="狐狸召唤礼包2" Cash_One="648" Purchase_Code_One="shop.code.419" Cash_Aos="648" Purchase_Code_Aos="shop.code.419" Cash_Ios="648" Purchase_Code_Ios="shop.code.419"/>
+	<Data ID="4119" Shop_ID="119" Name="坐骑每日礼包" Cash_One="128" Purchase_Code_One="shop.code.420" Cash_Aos="128" Purchase_Code_Aos="shop.code.420" Cash_Ios="128" Purchase_Code_Ios="shop.code.420"/>
+	<Data ID="4120" Shop_ID="120" Name="超值道具复原礼包" Cash_One="68" Purchase_Code_One="shop.code.421" Cash_Aos="68" Purchase_Code_Aos="shop.code.421" Cash_Ios="68" Purchase_Code_Ios="shop.code.421"/>
+	<Data ID="5101" Shop_ID="101" Name="新手礼包" Cash_One="98" Purchase_Code_One="shop.code.201" Cash_Aos="98" Purchase_Code_Aos="shop.code.201" Cash_Ios="98" Purchase_Code_Ios="shop.code.201"/>
+	<Data ID="5102" Shop_ID="103" Name="转盘礼包" Cash_One="328" Purchase_Code_One="shop.code.202" Cash_Aos="328" Purchase_Code_Aos="shop.code.202" Cash_Ios="328" Purchase_Code_Ios="shop.code.202"/>
+	<Data ID="5103" Shop_ID="104" Name="欢迎套餐" Cash_One="30" Purchase_Code_One="shop.code.203" Cash_Aos="30" Purchase_Code_Aos="shop.code.203" Cash_Ios="30" Purchase_Code_Ios="shop.code.203"/>
+	<Data ID="5104" Shop_ID="106" Name="开服礼包" Cash_One="18" Purchase_Code_One="shop.code.204" Cash_Aos="18" Purchase_Code_Aos="shop.code.204" Cash_Ios="18" Purchase_Code_Ios="shop.code.204"/>
+	<Data ID="6201" Shop_ID="130" Name="1元装备升级体验礼包" Cash_One="1" Purchase_Code_One="shop.code.301" Cash_Aos="1" Purchase_Code_Aos="shop.code.301" Cash_Ios="1" Purchase_Code_Ios="shop.code.301"/>
+	<Data ID="6202" Shop_ID="131" Name="装备升级礼包1" Cash_One="6" Purchase_Code_One="shop.code.302" Cash_Aos="6" Purchase_Code_Aos="shop.code.302" Cash_Ios="6" Purchase_Code_Ios="shop.code.302"/>
+	<Data ID="6203" Shop_ID="132" Name="装备升级礼包2" Cash_One="30" Purchase_Code_One="shop.code.303" Cash_Aos="30" Purchase_Code_Aos="shop.code.303" Cash_Ios="30" Purchase_Code_Ios="shop.code.303"/>
+	<Data ID="6204" Shop_ID="133" Name="装备升级礼包3" Cash_One="68" Purchase_Code_One="shop.code.304" Cash_Aos="68" Purchase_Code_Aos="shop.code.304" Cash_Ios="68" Purchase_Code_Ios="shop.code.304"/>
+	<Data ID="6205" Shop_ID="134" Name="装备升级礼包4" Cash_One="128" Purchase_Code_One="shop.code.305" Cash_Aos="128" Purchase_Code_Aos="shop.code.305" Cash_Ios="128" Purchase_Code_Ios="shop.code.305"/>
+	<Data ID="6206" Shop_ID="135" Name="装备升级礼包5" Cash_One="328" Purchase_Code_One="shop.code.306" Cash_Aos="328" Purchase_Code_Aos="shop.code.306" Cash_Ios="328" Purchase_Code_Ios="shop.code.306"/>
+	<Data ID="6207" Shop_ID="136" Name="装备升级礼包6" Cash_One="648" Purchase_Code_One="shop.code.307" Cash_Aos="648" Purchase_Code_Aos="shop.code.307" Cash_Ios="648" Purchase_Code_Ios="shop.code.307"/>
+	<Data ID="6211" Shop_ID="140" Name="1元宝石升级体验礼包" Cash_One="1" Purchase_Code_One="shop.code.311" Cash_Aos="1" Purchase_Code_Aos="shop.code.311" Cash_Ios="1" Purchase_Code_Ios="shop.code.311"/>
+	<Data ID="6212" Shop_ID="141" Name="宝石升级礼包1" Cash_One="6" Purchase_Code_One="shop.code.312" Cash_Aos="6" Purchase_Code_Aos="shop.code.312" Cash_Ios="6" Purchase_Code_Ios="shop.code.312"/>
+	<Data ID="6213" Shop_ID="142" Name="宝石升级礼包2" Cash_One="30" Purchase_Code_One="shop.code.313" Cash_Aos="30" Purchase_Code_Aos="shop.code.313" Cash_Ios="30" Purchase_Code_Ios="shop.code.313"/>
+	<Data ID="6214" Shop_ID="143" Name="宝石升级礼包3" Cash_One="68" Purchase_Code_One="shop.code.314" Cash_Aos="68" Purchase_Code_Aos="shop.code.314" Cash_Ios="68" Purchase_Code_Ios="shop.code.314"/>
+	<Data ID="6215" Shop_ID="144" Name="宝石升级礼包4" Cash_One="128" Purchase_Code_One="shop.code.315" Cash_Aos="128" Purchase_Code_Aos="shop.code.315" Cash_Ios="128" Purchase_Code_Ios="shop.code.315"/>
+	<Data ID="6216" Shop_ID="145" Name="宝石升级礼包5" Cash_One="328" Purchase_Code_One="shop.code.316" Cash_Aos="328" Purchase_Code_Aos="shop.code.316" Cash_Ios="328" Purchase_Code_Ios="shop.code.316"/>
+	<Data ID="6217" Shop_ID="146" Name="宝石升级礼包6" Cash_One="648" Purchase_Code_One="shop.code.317" Cash_Aos="648" Purchase_Code_Aos="shop.code.317" Cash_Ios="648" Purchase_Code_Ios="shop.code.317"/>
+	<Data ID="6221" Shop_ID="150" Name="1元坐骑升阶体验礼包" Cash_One="1" Purchase_Code_One="shop.code.321" Cash_Aos="1" Purchase_Code_Aos="shop.code.321" Cash_Ios="1" Purchase_Code_Ios="shop.code.321"/>
+	<Data ID="6222" Shop_ID="151" Name="千里马升阶礼包" Cash_One="30" Purchase_Code_One="shop.code.322" Cash_Aos="30" Purchase_Code_Aos="shop.code.322" Cash_Ios="30" Purchase_Code_Ios="shop.code.322"/>
+	<Data ID="6223" Shop_ID="152" Name="狼王召唤礼包" Cash_One="68" Purchase_Code_One="shop.code.323" Cash_Aos="68" Purchase_Code_Aos="shop.code.323" Cash_Ios="68" Purchase_Code_Ios="shop.code.323"/>
+	<Data ID="6224" Shop_ID="153" Name="狼王进阶礼包" Cash_One="128" Purchase_Code_One="shop.code.324" Cash_Aos="128" Purchase_Code_Aos="shop.code.324" Cash_Ios="128" Purchase_Code_Ios="shop.code.324"/>
+	<Data ID="6225" Shop_ID="154" Name="虎王召唤礼包" Cash_One="328" Purchase_Code_One="shop.code.325" Cash_Aos="328" Purchase_Code_Aos="shop.code.325" Cash_Ios="328" Purchase_Code_Ios="shop.code.325"/>
+	<Data ID="6226" Shop_ID="155" Name="虎王进阶礼包" Cash_One="648" Purchase_Code_One="shop.code.326" Cash_Aos="648" Purchase_Code_Aos="shop.code.326" Cash_Ios="648" Purchase_Code_Ios="shop.code.326"/>
+	<Data ID="6231" Shop_ID="160" Name="1元时装升级礼包" Cash_One="1" Purchase_Code_One="shop.code.331" Cash_Aos="1" Purchase_Code_Aos="shop.code.331" Cash_Ios="1" Purchase_Code_Ios="shop.code.331"/>
+	<Data ID="6232" Shop_ID="161" Name="时装升级礼包1" Cash_One="6" Purchase_Code_One="shop.code.332" Cash_Aos="6" Purchase_Code_Aos="shop.code.332" Cash_Ios="6" Purchase_Code_Ios="shop.code.332"/>
+	<Data ID="6233" Shop_ID="162" Name="时装升级礼包2" Cash_One="30" Purchase_Code_One="shop.code.333" Cash_Aos="30" Purchase_Code_Aos="shop.code.333" Cash_Ios="30" Purchase_Code_Ios="shop.code.333"/>
+	<Data ID="6234" Shop_ID="163" Name="时装升级礼包3" Cash_One="68" Purchase_Code_One="shop.code.334" Cash_Aos="68" Purchase_Code_Aos="shop.code.334" Cash_Ios="68" Purchase_Code_Ios="shop.code.334"/>
+	<Data ID="6235" Shop_ID="164" Name="时装升级礼包4" Cash_One="128" Purchase_Code_One="shop.code.335" Cash_Aos="128" Purchase_Code_Aos="shop.code.335" Cash_Ios="128" Purchase_Code_Ios="shop.code.335"/>
+	<Data ID="6236" Shop_ID="165" Name="时装升级礼包5" Cash_One="328" Purchase_Code_One="shop.code.336" Cash_Aos="328" Purchase_Code_Aos="shop.code.336" Cash_Ios="328" Purchase_Code_Ios="shop.code.336"/>
+	<Data ID="6237" Shop_ID="166" Name="时装升级礼包6" Cash_One="648" Purchase_Code_One="shop.code.337" Cash_Aos="648" Purchase_Code_Aos="shop.code.337" Cash_Ios="648" Purchase_Code_Ios="shop.code.337"/>
+	<Data ID="6241" Shop_ID="170" Name="1元强化礼包" Cash_One="1" Purchase_Code_One="shop.code.341" Cash_Aos="1" Purchase_Code_Aos="shop.code.341" Cash_Ios="1" Purchase_Code_Ios="shop.code.341"/>
+	<Data ID="6242" Shop_ID="171" Name="强化礼包1" Cash_One="6" Purchase_Code_One="shop.code.342" Cash_Aos="6" Purchase_Code_Aos="shop.code.342" Cash_Ios="6" Purchase_Code_Ios="shop.code.342"/>
+	<Data ID="6243" Shop_ID="172" Name="强化礼包2" Cash_One="30" Purchase_Code_One="shop.code.343" Cash_Aos="30" Purchase_Code_Aos="shop.code.343" Cash_Ios="30" Purchase_Code_Ios="shop.code.343"/>
+	<Data ID="6244" Shop_ID="173" Name="强化礼包3" Cash_One="68" Purchase_Code_One="shop.code.344" Cash_Aos="68" Purchase_Code_Aos="shop.code.344" Cash_Ios="68" Purchase_Code_Ios="shop.code.344"/>
+	<Data ID="6245" Shop_ID="174" Name="强化礼包4" Cash_One="128" Purchase_Code_One="shop.code.345" Cash_Aos="128" Purchase_Code_Aos="shop.code.345" Cash_Ios="128" Purchase_Code_Ios="shop.code.345"/>
+	<Data ID="6246" Shop_ID="175" Name="强化礼包5" Cash_One="328" Purchase_Code_One="shop.code.346" Cash_Aos="328" Purchase_Code_Aos="shop.code.346" Cash_Ios="328" Purchase_Code_Ios="shop.code.346"/>
+	<Data ID="6247" Shop_ID="176" Name="强化礼包6" Cash_One="648" Purchase_Code_One="shop.code.347" Cash_Aos="648" Purchase_Code_Aos="shop.code.347" Cash_Ios="648" Purchase_Code_Ios="shop.code.347"/>
+	<Data ID="6251" Shop_ID="180" Name="1元角色成长礼包" Cash_One="1" Purchase_Code_One="shop.code.351" Cash_Aos="1" Purchase_Code_Aos="shop.code.351" Cash_Ios="1" Purchase_Code_Ios="shop.code.351"/>
+	<Data ID="6252" Shop_ID="181" Name="角色成长礼包1" Cash_One="6" Purchase_Code_One="shop.code.352" Cash_Aos="6" Purchase_Code_Aos="shop.code.352" Cash_Ios="6" Purchase_Code_Ios="shop.code.352"/>
+	<Data ID="6253" Shop_ID="182" Name="角色成长礼包2" Cash_One="30" Purchase_Code_One="shop.code.353" Cash_Aos="30" Purchase_Code_Aos="shop.code.353" Cash_Ios="30" Purchase_Code_Ios="shop.code.353"/>
+	<Data ID="6254" Shop_ID="183" Name="角色成长礼包3" Cash_One="68" Purchase_Code_One="shop.code.354" Cash_Aos="68" Purchase_Code_Aos="shop.code.354" Cash_Ios="68" Purchase_Code_Ios="shop.code.354"/>
+	<Data ID="6255" Shop_ID="184" Name="角色成长礼包4" Cash_One="128" Purchase_Code_One="shop.code.355" Cash_Aos="128" Purchase_Code_Aos="shop.code.355" Cash_Ios="128" Purchase_Code_Ios="shop.code.355"/>
+	<Data ID="6256" Shop_ID="185" Name="角色成长礼包5" Cash_One="328" Purchase_Code_One="shop.code.356" Cash_Aos="328" Purchase_Code_Aos="shop.code.356" Cash_Ios="328" Purchase_Code_Ios="shop.code.356"/>
+	<Data ID="6257" Shop_ID="186" Name="角色成长礼包6" Cash_One="648" Purchase_Code_One="shop.code.357" Cash_Aos="648" Purchase_Code_Aos="shop.code.357" Cash_Ios="648" Purchase_Code_Ios="shop.code.357"/>
+	<Data ID="6271" Shop_ID="190" Name="1元综合成长礼包" Cash_One="1" Purchase_Code_One="shop.code.361" Cash_Aos="1" Purchase_Code_Aos="shop.code.361" Cash_Ios="1" Purchase_Code_Ios="shop.code.361"/>
+	<Data ID="6272" Shop_ID="191" Name="综合成长礼包1" Cash_One="6" Purchase_Code_One="shop.code.362" Cash_Aos="6" Purchase_Code_Aos="shop.code.362" Cash_Ios="6" Purchase_Code_Ios="shop.code.362"/>
+	<Data ID="6273" Shop_ID="192" Name="综合成长礼包2" Cash_One="30" Purchase_Code_One="shop.code.363" Cash_Aos="30" Purchase_Code_Aos="shop.code.363" Cash_Ios="30" Purchase_Code_Ios="shop.code.363"/>
+	<Data ID="6274" Shop_ID="193" Name="综合成长礼包3" Cash_One="68" Purchase_Code_One="shop.code.364" Cash_Aos="68" Purchase_Code_Aos="shop.code.364" Cash_Ios="68" Purchase_Code_Ios="shop.code.364"/>
+	<Data ID="6275" Shop_ID="194" Name="综合成长礼包4" Cash_One="128" Purchase_Code_One="shop.code.365" Cash_Aos="128" Purchase_Code_Aos="shop.code.365" Cash_Ios="128" Purchase_Code_Ios="shop.code.365"/>
+	<Data ID="6276" Shop_ID="195" Name="综合成长礼包5" Cash_One="328" Purchase_Code_One="shop.code.366" Cash_Aos="328" Purchase_Code_Aos="shop.code.366" Cash_Ios="328" Purchase_Code_Ios="shop.code.366"/>
+	<Data ID="6277" Shop_ID="196" Name="综合成长礼包6" Cash_One="648" Purchase_Code_One="shop.code.367" Cash_Aos="648" Purchase_Code_Aos="shop.code.367" Cash_Ios="648" Purchase_Code_Ios="shop.code.367"/>
+	<Data ID="6281" Shop_ID="200" Name="道具修复礼盒" Cash_One="198" Purchase_Code_One="shop.code.381" Cash_Aos="198" Purchase_Code_Aos="shop.code.381" Cash_Ios="198" Purchase_Code_Ios="shop.code.381"/>
+	<Data ID="7001" Shop_ID="350001" Name="超值背包扩充礼包" Cash_One="1" Purchase_Code_One="shop.code.211" Cash_Aos="1" Purchase_Code_Aos="shop.code.211" Cash_Ios="1" Purchase_Code_Ios="shop.code.211"/>
+	<Data ID="7002" Shop_ID="350002" Name="超值背包扩充礼包" Cash_One="3" Purchase_Code_One="shop.code.212" Cash_Aos="3" Purchase_Code_Aos="shop.code.212" Cash_Ios="3" Purchase_Code_Ios="shop.code.212"/>
+	<Data ID="7011" Shop_ID="350003" Name="超值装备强化礼包" Cash_One="1" Purchase_Code_One="shop.code.213" Cash_Aos="1" Purchase_Code_Aos="shop.code.213" Cash_Ios="1" Purchase_Code_Ios="shop.code.213"/>
+	<Data ID="7012" Shop_ID="350004" Name="超值装备强化礼包" Cash_One="3" Purchase_Code_One="shop.code.214" Cash_Aos="3" Purchase_Code_Aos="shop.code.214" Cash_Ios="3" Purchase_Code_Ios="shop.code.214"/>
+	<Data ID="7021" Shop_ID="350005" Name="超值坐骑碎片礼包" Cash_One="1" Purchase_Code_One="shop.code.215" Cash_Aos="1" Purchase_Code_Aos="shop.code.215" Cash_Ios="1" Purchase_Code_Ios="shop.code.215"/>
+	<Data ID="7022" Shop_ID="350006" Name="超值坐骑碎片礼包" Cash_One="3" Purchase_Code_One="shop.code.216" Cash_Aos="3" Purchase_Code_Aos="shop.code.216" Cash_Ios="3" Purchase_Code_Ios="shop.code.216"/>
+	<Data ID="7031" Shop_ID="350007" Name="超值神装礼包" Cash_One="1" Purchase_Code_One="shop.code.217" Cash_Aos="1" Purchase_Code_Aos="shop.code.217" Cash_Ios="1" Purchase_Code_Ios="shop.code.217"/>
+	<Data ID="7032" Shop_ID="350008" Name="超值神装礼包" Cash_One="3" Purchase_Code_One="shop.code.218" Cash_Aos="3" Purchase_Code_Aos="shop.code.218" Cash_Ios="3" Purchase_Code_Ios="shop.code.218"/>
+	<Data ID="7041" Shop_ID="350009" Name="超值神装强化礼包" Cash_One="1" Purchase_Code_One="shop.code.219" Cash_Aos="1" Purchase_Code_Aos="shop.code.219" Cash_Ios="1" Purchase_Code_Ios="shop.code.219"/>
+	<Data ID="7042" Shop_ID="350010" Name="超值神装强化礼包" Cash_One="3" Purchase_Code_One="shop.code.220" Cash_Aos="3" Purchase_Code_Aos="shop.code.220" Cash_Ios="3" Purchase_Code_Ios="shop.code.220"/>
+	<Data ID="7051" Shop_ID="350101" Name="1元超值装备升级礼包（1档）" Cash_One="1" Purchase_Code_One="shop.code.221" Cash_Aos="1" Purchase_Code_Aos="shop.code.221" Cash_Ios="1" Purchase_Code_Ios="shop.code.221"/>
+	<Data ID="7052" Shop_ID="350102" Name="超值装备升级礼包1（2档）" Cash_One="6" Purchase_Code_One="shop.code.222" Cash_Aos="6" Purchase_Code_Aos="shop.code.222" Cash_Ios="6" Purchase_Code_Ios="shop.code.222"/>
+	<Data ID="7053" Shop_ID="350103" Name="超值装备升级礼包2（3档）" Cash_One="30" Purchase_Code_One="shop.code.223" Cash_Aos="30" Purchase_Code_Aos="shop.code.223" Cash_Ios="30" Purchase_Code_Ios="shop.code.223"/>
+	<Data ID="7054" Shop_ID="350104" Name="超值装备升级礼包3（4档）" Cash_One="68" Purchase_Code_One="shop.code.224" Cash_Aos="68" Purchase_Code_Aos="shop.code.224" Cash_Ios="68" Purchase_Code_Ios="shop.code.224"/>
+	<Data ID="7061" Shop_ID="350111" Name="1元超值宝石礼包（1档）" Cash_One="1" Purchase_Code_One="shop.code.225" Cash_Aos="1" Purchase_Code_Aos="shop.code.225" Cash_Ios="1" Purchase_Code_Ios="shop.code.225"/>
+	<Data ID="7062" Shop_ID="350112" Name="宝石升级礼包1（2档）" Cash_One="6" Purchase_Code_One="shop.code.226" Cash_Aos="6" Purchase_Code_Aos="shop.code.226" Cash_Ios="6" Purchase_Code_Ios="shop.code.226"/>
+	<Data ID="7063" Shop_ID="350113" Name="宝石升级礼包2（3档）" Cash_One="30" Purchase_Code_One="shop.code.227" Cash_Aos="30" Purchase_Code_Aos="shop.code.227" Cash_Ios="30" Purchase_Code_Ios="shop.code.227"/>
+	<Data ID="7064" Shop_ID="350114" Name="宝石升级礼包3（4档）" Cash_One="68" Purchase_Code_One="shop.code.228" Cash_Aos="68" Purchase_Code_Aos="shop.code.228" Cash_Ios="68" Purchase_Code_Ios="shop.code.228"/>
+	<Data ID="7071" Shop_ID="350121" Name="1元超值神装礼包（1档）" Cash_One="1" Purchase_Code_One="shop.code.229" Cash_Aos="1" Purchase_Code_Aos="shop.code.229" Cash_Ios="1" Purchase_Code_Ios="shop.code.229"/>
+	<Data ID="7072" Shop_ID="350122" Name="神装升级礼包1（2档）" Cash_One="6" Purchase_Code_One="shop.code.230" Cash_Aos="6" Purchase_Code_Aos="shop.code.230" Cash_Ios="6" Purchase_Code_Ios="shop.code.230"/>
+	<Data ID="7073" Shop_ID="350123" Name="神装升级礼包2（3档）" Cash_One="30" Purchase_Code_One="shop.code.231" Cash_Aos="30" Purchase_Code_Aos="shop.code.231" Cash_Ios="30" Purchase_Code_Ios="shop.code.231"/>
+	<Data ID="7074" Shop_ID="350124" Name="神装升级礼包3（4档）" Cash_One="68" Purchase_Code_One="shop.code.232" Cash_Aos="68" Purchase_Code_Aos="shop.code.232" Cash_Ios="68" Purchase_Code_Ios="shop.code.232"/>
+	<Data ID="7081" Shop_ID="350131" Name="1元超值坐骑礼包" Cash_One="1" Purchase_Code_One="shop.code.233" Cash_Aos="1" Purchase_Code_Aos="shop.code.233" Cash_Ios="1" Purchase_Code_Ios="shop.code.233"/>
+	<Data ID="7082" Shop_ID="350141" Name="千里马进阶石礼包" Cash_One="6" Purchase_Code_One="shop.code.234" Cash_Aos="6" Purchase_Code_Aos="shop.code.234" Cash_Ios="6" Purchase_Code_Ios="shop.code.234"/>
+	<Data ID="7083" Shop_ID="350151" Name="狼王进阶石礼包" Cash_One="30" Purchase_Code_One="shop.code.235" Cash_Aos="30" Purchase_Code_Aos="shop.code.235" Cash_Ios="30" Purchase_Code_Ios="shop.code.235"/>
+	<Data ID="7091" Shop_ID="350161" Name="虎王进阶石礼包（1档）" Cash_One="68" Purchase_Code_One="shop.code.236" Cash_Aos="68" Purchase_Code_Aos="shop.code.236" Cash_Ios="68" Purchase_Code_Ios="shop.code.236"/>
+	<Data ID="7092" Shop_ID="350162" Name="坐骑升级礼包（2档）" Cash_One="128" Purchase_Code_One="shop.code.237" Cash_Aos="128" Purchase_Code_Aos="shop.code.237" Cash_Ios="128" Purchase_Code_Ios="shop.code.237"/>
+</Root>

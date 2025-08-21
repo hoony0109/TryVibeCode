@@ -1,0 +1,63 @@
+.server-control-page {
+  padding: 2rem;
+}
+
+.global-controls-card {
+  background-color: #162447;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.global-controls-card h3 {
+  margin-top: 0;
+  color: #b8c1ec;
+  border-bottom: 1px solid #3a3a5e;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.global-controls-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.global-controls-actions .btn-shutdown-all,
+.global-controls-actions .btn-restart-all {
+  flex-grow: 1;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  font-size: 1rem;
+}
+
+.global-controls-actions .btn-shutdown-all:hover,
+.global-controls-actions .btn-restart-all:hover {
+  transform: scale(1.02);
+}
+
+.global-controls-actions .btn-shutdown-all {
+  background-color: #dc3545;
+}
+.global-controls-actions .btn-shutdown-all:hover {
+  background-color: #c82333;
+}
+
+.global-controls-actions .btn-restart-all {
+  background-color: #ffc107;
+  color: #212529;
+}
+.global-controls-actions .btn-restart-all:hover {
+  background-color: #e0a800;
+}
+
+.server-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}

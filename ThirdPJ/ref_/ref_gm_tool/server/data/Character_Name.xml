@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+	<Data Type="99999" ID="10101001" Name_Standard="청룡" Code="IDS_PC_Job_1" Name_KR="청룡" Name_CN="青龙" Name_TW="沙門" Name_VN="Thanh Long" Name_EN="0"/>
+	<Data Type="99999" ID="10102001" Name_Standard="현무" Code="IDS_PC_Job_2" Name_KR="현무" Name_CN="玄武" Name_TW="摩天" Name_VN="Huyền Vũ" Name_EN="0"/>
+	<Data Type="99999" ID="10103001" Name_Standard="주작" Code="IDS_PC_Job_3" Name_KR="주작" Name_CN="朱雀" Name_TW="蓋婭" Name_VN="Chu Tước" Name_EN="0"/>
+	<Data Type="99999" ID="10104001" Name_Standard="백호" Code="IDS_PC_Job_4" Name_KR="백호" Name_CN="白虎" Name_TW="耀瑄" Name_VN="Bạch Hổ" Name_EN="0"/>
+</Root>

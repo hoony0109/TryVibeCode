@@ -1,0 +1,191 @@
+/* LogViewerPage.css */
+.log-viewer-page {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.filters-card {
+  background-color: #162447;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.filters-card h3 {
+  margin-top: 0;
+  color: #b8c1ec;
+  border-bottom: 1px solid #3a3a5e;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.queried-db-info {
+  background-color: #1f2a40;
+  color: #a0a0c0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.filter-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #a0a0c0;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #3a3a5e;
+  background-color: #1f2a40;
+  color: #e0e0e0;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #646cff;
+  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.3);
+}
+
+.dynamic-filters .filter-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.dynamic-filters .filter-row select,
+.dynamic-filters .filter-row input {
+  flex-grow: 1;
+}
+
+.dynamic-filters button,
+.search-controls button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dynamic-filters .filter-row button {
+  background-color: #dc3545;
+  flex-shrink: 0;
+}
+.dynamic-filters .filter-row button:hover {
+  background-color: #c82333;
+}
+
+.dynamic-filters > button {
+  background-color: #28a745;
+}
+.dynamic-filters > button:hover {
+  background-color: #218838;
+}
+
+.search-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid #3a3a5e;
+  padding-top: 1.5rem;
+}
+
+.search-controls button {
+  background-color: #e94560;
+}
+.search-controls button:hover {
+  background-color: #f06273;
+}
+
+.table-container {
+  background-color: #162447;
+  border-radius: 12px;
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #e0e0e0;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #3a3a5e;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+th {
+  color: #b8c1ec;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #1e1e3f;
+}
+
+tr:hover {
+  background-color: #1e1e3f;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.pagination-controls button {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #3a3a5e;
+  border-radius: 8px;
+  background-color: #1f2a40;
+  color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+  background-color: #3a3a5e;
+}
+
+.pagination-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-controls .export-button {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+.pagination-controls .export-button:hover:not(:disabled) {
+  background-color: #218838;
+}

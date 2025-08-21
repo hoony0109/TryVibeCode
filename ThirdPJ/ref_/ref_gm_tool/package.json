@@ -1,0 +1,81 @@
+{
+  "name": "bs_crm",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:2888",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.5.1",
+    "cors": "^2.8.5",
+    "date-utils": "^1.2.21",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "html-webpack-plugin": "^4.5.2",
+    "i18next": "^23.14.0",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.6.1",
+    "include-media": "^1.4.9",
+    "lodash": "^4.17.20",
+    "md5": "^2.3.0",
+    "mongodb": "^3.6.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-cache": "^4.2.1",
+    "open-color": "^1.7.0",
+    "react": "^18.2.0",
+    "react-csv": "^2.0.3",
+    "react-data-grid": "^6.1.0",
+    "react-data-grid-addons": "^6.1.0",
+    "react-datetime": "^3.2.0",
+    "react-dom": "^18.2.0",
+    "react-excel-renderer": "^1.1.0",
+    "react-i18next": "^15.0.1",
+    "react-json-view": "^1.19.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.0",
+    "react-switch": "^5.0.1",
+    "reactjs-popup": "^1.5.0",
+    "sass": "^1.85.1",
+    "typescript": "^3.9.3",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^4.5.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "start": "npm-run-all --parallel start:**",
+    "start:backend": "node ./server/server.js",
+    "start:frontend": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

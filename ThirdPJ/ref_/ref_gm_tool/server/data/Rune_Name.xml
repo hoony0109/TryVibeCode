@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+	<Data Type="99999" ID="310601" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="310602" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="310603" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="310701" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="310702" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="310703" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="310801" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="310802" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="310803" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="310901" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="310902" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="310903" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311001" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311002" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="311003" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311101" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311102" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="311103" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311201" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311202" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="311203" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311301" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311302" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="311303" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311401" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311402" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="311403" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311501" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311502" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="311503" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311601" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311602" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="311603" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311701" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311702" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="311703" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="311801" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311802" Name_Standard="광란" Code="Rune_name_5" Name_KR="광란" Name_CN="狂乱" Name_TW="狂亂" Name_VN="Cuồng Loạn" Name_EN="Frantic"/>
+	<Data Type="99999" ID="311803" Name_Standard="광속" Code="Rune_name_6" Name_KR="광속" Name_CN="狂速" Name_TW="狂速" Name_VN="Cuồng Tốc" Name_EN="Sonic"/>
+	<Data Type="99999" ID="311901" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="311902" Name_Standard="광란" Code="Rune_name_5" Name_KR="광란" Name_CN="狂乱" Name_TW="狂亂" Name_VN="Cuồng Loạn" Name_EN="Frantic"/>
+	<Data Type="99999" ID="311903" Name_Standard="광속" Code="Rune_name_6" Name_KR="광속" Name_CN="狂速" Name_TW="狂速" Name_VN="Cuồng Tốc" Name_EN="Sonic"/>
+	<Data Type="99999" ID="312001" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="312002" Name_Standard="광란" Code="Rune_name_5" Name_KR="광란" Name_CN="狂乱" Name_TW="狂亂" Name_VN="Cuồng Loạn" Name_EN="Frantic"/>
+	<Data Type="99999" ID="312003" Name_Standard="광속" Code="Rune_name_6" Name_KR="광속" Name_CN="狂速" Name_TW="狂速" Name_VN="Cuồng Tốc" Name_EN="Sonic"/>
+	<Data Type="99999" ID="330101" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330102" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="330103" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="330201" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330202" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="330203" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="330301" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330302" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="330303" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="330401" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330402" Name_Standard="방호" Code="Rune_name_7" Name_KR="방호" Name_CN="防护" Name_TW="防護" Name_VN="Phòng Hộ" Name_EN="Guard"/>
+	<Data Type="99999" ID="330403" Name_Standard="방탄" Code="Rune_name_8" Name_KR="방탄" Name_CN="防弹" Name_TW="防彈" Name_VN="Phòng Đạn" Name_EN="Bulletproof"/>
+	<Data Type="99999" ID="330501" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330502" Name_Standard="방호" Code="Rune_name_7" Name_KR="방호" Name_CN="防护" Name_TW="防護" Name_VN="Phòng Hộ" Name_EN="Guard"/>
+	<Data Type="99999" ID="330503" Name_Standard="방탄" Code="Rune_name_8" Name_KR="방탄" Name_CN="防弹" Name_TW="防彈" Name_VN="Phòng Đạn" Name_EN="Bulletproof"/>
+	<Data Type="99999" ID="330601" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330602" Name_Standard="방호" Code="Rune_name_7" Name_KR="방호" Name_CN="防护" Name_TW="防護" Name_VN="Phòng Hộ" Name_EN="Guard"/>
+	<Data Type="99999" ID="330603" Name_Standard="방탄" Code="Rune_name_8" Name_KR="방탄" Name_CN="防弹" Name_TW="防彈" Name_VN="Phòng Đạn" Name_EN="Bulletproof"/>
+	<Data Type="99999" ID="330701" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330702" Name_Standard="암격" Code="Rune_name_9" Name_KR="암격" Name_CN="暗击" Name_TW="暗擊" Name_VN="Ám Kích" Name_EN="Assault"/>
+	<Data Type="99999" ID="330703" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="330801" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330802" Name_Standard="암격" Code="Rune_name_9" Name_KR="암격" Name_CN="暗击" Name_TW="暗擊" Name_VN="Ám Kích" Name_EN="Assault"/>
+	<Data Type="99999" ID="330803" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="330901" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="330902" Name_Standard="암격" Code="Rune_name_9" Name_KR="암격" Name_CN="暗击" Name_TW="暗擊" Name_VN="Ám Kích" Name_EN="Assault"/>
+	<Data Type="99999" ID="330903" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="331001" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="331002" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="331003" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="331101" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="331102" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="331103" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="331201" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="331202" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="331203" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="331301" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="331302" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="331303" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="331401" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="331402" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="331403" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="331501" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="331502" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="331503" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="340101" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340102" Name_Standard="암력" Code="Rune_name_11" Name_KR="암력" Name_CN="暗力" Name_TW="暗力" Name_VN="Ám Lực" Name_EN="Dark Force"/>
+	<Data Type="99999" ID="340103" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="340201" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340202" Name_Standard="암력" Code="Rune_name_11" Name_KR="암력" Name_CN="暗力" Name_TW="暗力" Name_VN="Ám Lực" Name_EN="Dark Force"/>
+	<Data Type="99999" ID="340203" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="340301" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340302" Name_Standard="암력" Code="Rune_name_11" Name_KR="암력" Name_CN="暗力" Name_TW="暗力" Name_VN="Ám Lực" Name_EN="Dark Force"/>
+	<Data Type="99999" ID="340303" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="340401" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340402" Name_Standard="중독시간" Code="Rune_name_12" Name_KR="중독시간" Name_CN="中毒时间" Name_TW="中毒時間" Name_VN="Thời gian trúng độc" Name_EN="Poisoned time"/>
+	<Data Type="99999" ID="340403" Name_Standard="독아" Code="Rune_name_13" Name_KR="독아" Name_CN="独我" Name_TW="獨我" Name_VN="Độc Ngã" Name_EN="Alone"/>
+	<Data Type="99999" ID="340501" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340502" Name_Standard="중독시간" Code="Rune_name_12" Name_KR="중독시간" Name_CN="中毒时间" Name_TW="中毒時間" Name_VN="Thời gian trúng độc" Name_EN="Poisoned time"/>
+	<Data Type="99999" ID="340503" Name_Standard="독아" Code="Rune_name_13" Name_KR="독아" Name_CN="独我" Name_TW="獨我" Name_VN="Độc Ngã" Name_EN="Alone"/>
+	<Data Type="99999" ID="340601" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340602" Name_Standard="중독시간" Code="Rune_name_12" Name_KR="중독시간" Name_CN="中毒时间" Name_TW="中毒時間" Name_VN="Thời gian trúng độc" Name_EN="Poisoned time"/>
+	<Data Type="99999" ID="340603" Name_Standard="독아" Code="Rune_name_13" Name_KR="독아" Name_CN="独我" Name_TW="獨我" Name_VN="Độc Ngã" Name_EN="Alone"/>
+	<Data Type="99999" ID="340701" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340702" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="340703" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="340801" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340802" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="340803" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="340901" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="340902" Name_Standard="타격" Code="Rune_name_2" Name_KR="타격" Name_CN="打击" Name_TW="打擊" Name_VN="Đánh" Name_EN="Hit"/>
+	<Data Type="99999" ID="340903" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="341001" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="341002" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="341003" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="341101" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="341102" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="341103" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="341201" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="341202" Name_Standard="기절시간" Code="Rune_name_4" Name_KR="기절시간" Name_CN="晕眩时间" Name_TW="暈眩時間" Name_VN="Thời gian choáng" Name_EN="Stun duration"/>
+	<Data Type="99999" ID="341203" Name_Standard="강격" Code="Rune_name_3" Name_KR="강격" Name_CN="强硬" Name_TW="強硬" Name_VN="Mạnh" Name_EN="Strong"/>
+	<Data Type="99999" ID="341301" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="341302" Name_Standard="소환(쇠뇌)" Code="Rune_name_14" Name_KR="소환(쇠뇌)" Name_CN="传唤(弩弓)" Name_TW="傳喚(弩弓)" Name_VN="Gọi (Cung)" Name_EN="Summon (Ballistas)"/>
+	<Data Type="99999" ID="341303" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="341401" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="341402" Name_Standard="소환(쇠뇌)" Code="Rune_name_14" Name_KR="소환(쇠뇌)" Name_CN="传唤(弩弓)" Name_TW="傳喚(弩弓)" Name_VN="Gọi (Cung)" Name_EN="Summon (Ballistas)"/>
+	<Data Type="99999" ID="341403" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="341501" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="341502" Name_Standard="소환(쇠뇌)" Code="Rune_name_14" Name_KR="소환(쇠뇌)" Name_CN="传唤(弩弓)" Name_TW="傳喚(弩弓)" Name_VN="Gọi (Cung)" Name_EN="Summon (Ballistas)"/>
+	<Data Type="99999" ID="341503" Name_Standard="일격" Code="Rune_name_10" Name_KR="일격" Name_CN="一击" Name_TW="一擊" Name_VN="Nhất Kích" Name_EN="Strike"/>
+	<Data Type="99999" ID="350101" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350102" Name_Standard="회복시간" Code="Rune_name_15" Name_KR="회복시간" Name_CN="恢复时间" Name_TW="恢復時間" Name_VN="Thời gian hồi" Name_EN="Recovering duration"/>
+	<Data Type="99999" ID="350103" Name_Standard="회복량" Code="Rune_name_16" Name_KR="회복량" Name_CN="恢复量" Name_TW="恢復量" Name_VN="Lượt phục hồi" Name_EN="Recovery Amount"/>
+	<Data Type="99999" ID="350201" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350202" Name_Standard="회복시간" Code="Rune_name_15" Name_KR="회복시간" Name_CN="恢复时间" Name_TW="恢復時間" Name_VN="Thời gian hồi" Name_EN="Recovering duration"/>
+	<Data Type="99999" ID="350203" Name_Standard="회복량" Code="Rune_name_16" Name_KR="회복량" Name_CN="恢复量" Name_TW="恢復量" Name_VN="Lượt phục hồi" Name_EN="Recovery Amount"/>
+	<Data Type="99999" ID="350301" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350302" Name_Standard="회복시간" Code="Rune_name_15" Name_KR="회복시간" Name_CN="恢复时间" Name_TW="恢復時間" Name_VN="Thời gian hồi" Name_EN="Recovering duration"/>
+	<Data Type="99999" ID="350303" Name_Standard="회복량" Code="Rune_name_16" Name_KR="회복량" Name_CN="恢复量" Name_TW="恢復量" Name_VN="Lượt phục hồi" Name_EN="Recovery Amount"/>
+	<Data Type="99999" ID="350401" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350402" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="350403" Name_Standard="충격" Code="Rune_name_18" Name_KR="충격" Name_CN="冲击" Name_TW="衝擊" Name_VN="Xung Kích" Name_EN="Slash"/>
+	<Data Type="99999" ID="350501" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350502" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="350503" Name_Standard="충격" Code="Rune_name_18" Name_KR="충격" Name_CN="冲击" Name_TW="衝擊" Name_VN="Xung Kích" Name_EN="Slash"/>
+	<Data Type="99999" ID="350601" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350602" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="350603" Name_Standard="충격" Code="Rune_name_18" Name_KR="충격" Name_CN="冲击" Name_TW="衝擊" Name_VN="Xung Kích" Name_EN="Slash"/>
+	<Data Type="99999" ID="350701" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350702" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="350703" Name_Standard="냉기" Code="Rune_name_19" Name_KR="냉기" Name_CN="冷气" Name_TW="冷氣" Name_VN="Lãnh Khí" Name_EN="Cold"/>
+	<Data Type="99999" ID="350801" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350802" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="350803" Name_Standard="냉기" Code="Rune_name_19" Name_KR="냉기" Name_CN="冷气" Name_TW="冷氣" Name_VN="Lãnh Khí" Name_EN="Cold"/>
+	<Data Type="99999" ID="350901" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="350902" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="350903" Name_Standard="냉기" Code="Rune_name_19" Name_KR="냉기" Name_CN="冷气" Name_TW="冷氣" Name_VN="Lãnh Khí" Name_EN="Cold"/>
+	<Data Type="99999" ID="351001" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="351002" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="351003" Name_Standard="증혼" Code="Rune_name_20" Name_KR="증혼" Name_CN="增魂" Name_TW="增魂" Name_VN="Tăng Hồn" Name_EN="Soul Buff"/>
+	<Data Type="99999" ID="351101" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="351102" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="351103" Name_Standard="증혼" Code="Rune_name_20" Name_KR="증혼" Name_CN="增魂" Name_TW="增魂" Name_VN="Tăng Hồn" Name_EN="Soul Buff"/>
+	<Data Type="99999" ID="351201" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="351202" Name_Standard="지속시간" Code="Rune_name_17" Name_KR="지속시간" Name_CN="持续时间" Name_TW="持續時間" Name_VN="Thời gian duy trì" Name_EN="Duration"/>
+	<Data Type="99999" ID="351203" Name_Standard="증혼" Code="Rune_name_20" Name_KR="증혼" Name_CN="增魂" Name_TW="增魂" Name_VN="Tăng Hồn" Name_EN="Soul Buff"/>
+	<Data Type="99999" ID="351301" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="351302" Name_Standard="화력" Code="Rune_name_21" Name_KR="화력" Name_CN="火力" Name_TW="火力" Name_VN="Hỏa Lực" Name_EN="Fire Force "/>
+	<Data Type="99999" ID="351303" Name_Standard="회복량" Code="Rune_name_16" Name_KR="회복량" Name_CN="恢复量" Name_TW="恢復量" Name_VN="Lượt phục hồi" Name_EN="Recovery Amount"/>
+	<Data Type="99999" ID="351401" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="351402" Name_Standard="화력" Code="Rune_name_21" Name_KR="화력" Name_CN="火力" Name_TW="火力" Name_VN="Hỏa Lực" Name_EN="Fire Force "/>
+	<Data Type="99999" ID="351403" Name_Standard="회복량" Code="Rune_name_16" Name_KR="회복량" Name_CN="恢复量" Name_TW="恢復量" Name_VN="Lượt phục hồi" Name_EN="Recovery Amount"/>
+	<Data Type="99999" ID="351501" Name_Standard="시간감소" Code="Rune_name_1" Name_KR="시간감소" Name_CN="减少时间" Name_TW="減少時間" Name_VN="Giảm thời gian" Name_EN="Reduce time"/>
+	<Data Type="99999" ID="351502" Name_Standard="화력" Code="Rune_name_21" Name_KR="화력" Name_CN="火力" Name_TW="火力" Name_VN="Hỏa Lực" Name_EN="Fire Force "/>
+	<Data Type="99999" ID="351503" Name_Standard="회복량" Code="Rune_name_16" Name_KR="회복량" Name_CN="恢复量" Name_TW="恢復量" Name_VN="Lượt phục hồi" Name_EN="Recovery Amount"/>
+	<Data Type="99999" ID="51500101" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500102" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500103" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500104" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500105" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500106" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500107" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500108" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500109" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51500110" Name_Standard="이화접목" Code="Rune_name_22" Name_KR="이화접목" Name_CN="梨花接木" Name_TW="梨花接木" Name_VN="Di Hoa Tiếp Mộc" Name_EN="Pear Blossom Grafting "/>
+	<Data Type="99999" ID="51510101" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510102" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510103" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510104" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510105" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510106" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510107" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510108" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510109" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51510110" Name_Standard="태극기공" Code="Rune_name_23" Name_KR="태극기공" Name_CN="太极气功" Name_TW="太極氣功" Name_VN="Thái Cực Khí Công" Name_EN="Channel Yin Yang"/>
+	<Data Type="99999" ID="51520101" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520102" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520103" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520104" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520105" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520106" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520107" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520108" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520109" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51520110" Name_Standard="무량진기" Code="Rune_name_24" Name_KR="무량진기" Name_CN="无量真气" Name_TW="無量真氣" Name_VN="Vô Lượng Chân Khí" Name_EN="Vital Force"/>
+	<Data Type="99999" ID="51530101" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530102" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530103" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530104" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530105" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530106" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530107" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530108" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530109" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51530110" Name_Standard="기공" Code="Rune_name_25" Name_KR="기공" Name_CN="气功" Name_TW="氣功" Name_VN="Khí Công" Name_EN="Channel"/>
+	<Data Type="99999" ID="51540101" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540102" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540103" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540104" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540105" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540106" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540107" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540108" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540109" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51540110" Name_Standard="운진" Code="Rune_name_26" Name_KR="운진" Name_CN="运尽" Name_TW="運盡" Name_VN="Vận Tận" Name_EN="Mistcloud"/>
+	<Data Type="99999" ID="51550101" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550102" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550103" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550104" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550105" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550106" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550107" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550108" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550109" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="51550110" Name_Standard="혈공" Code="Rune_name_27" Name_KR="혈공" Name_CN="血功" Name_TW="血功" Name_VN="Huyết Công" Name_EN="Bloody Attack"/>
+	<Data Type="99999" ID="52500101" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500102" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500103" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500104" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500105" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500106" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500107" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500108" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500109" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52500110" Name_Standard="차력" Code="Rune_name_28" Name_KR="차력" Name_CN="借力" Name_TW="借力" Name_VN="Tá Lực" Name_EN="Drawn Power"/>
+	<Data Type="99999" ID="52510101" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510102" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510103" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510104" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510105" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510106" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510107" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510108" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510109" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52510110" Name_Standard="금강" Code="Rune_name_29" Name_KR="금강" Name_CN="金刚" Name_TW="金剛" Name_VN="Kim Cang" Name_EN="Diamond Body"/>
+	<Data Type="99999" ID="52520101" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520102" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520103" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520104" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520105" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520106" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520107" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520108" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520109" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52520110" Name_Standard="역사" Code="Rune_name_30" Name_KR="역사" Name_CN="力士" Name_TW="力士" Name_VN="Lực Sĩ" Name_EN="Muscle-man"/>
+	<Data Type="99999" ID="52530101" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530102" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530103" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530104" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530105" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530106" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530107" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530108" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530109" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52530110" Name_Standard="공추" Code="Rune_name_31" Name_KR="공추" Name_CN="空锤" Name_TW="空錘" Name_VN="Không Chùy" Name_EN="Endure"/>
+	<Data Type="99999" ID="52540101" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540102" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540103" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540104" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540105" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540106" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540107" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540108" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540109" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52540110" Name_Standard="저력" Code="Rune_name_32" Name_KR="저력" Name_CN="砥砺" Name_TW="砥礪" Name_VN="Chỉ Lệ" Name_EN="Steadfast"/>
+	<Data Type="99999" ID="52550101" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550102" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550103" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550104" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550105" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550106" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550107" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550108" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550109" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="52550110" Name_Standard="광아" Code="Rune_name_33" Name_KR="광아" Name_CN="光雅" Name_TW="光雅" Name_VN="Quang Nhã" Name_EN="Demonblood"/>
+	<Data Type="99999" ID="53500101" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500102" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500103" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500104" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500105" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500106" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500107" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500108" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500109" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53500110" Name_Standard="속사" Code="Rune_name_34" Name_KR="속사" Name_CN="速射" Name_TW="速射" Name_VN="Tốc Xạ" Name_EN="Rapid Fire"/>
+	<Data Type="99999" ID="53510101" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510102" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510103" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510104" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510105" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510106" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510107" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510108" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510109" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53510110" Name_Standard="현야월" Code="Rune_name_35" Name_KR="현야월" Name_CN="玄夜月" Name_TW="玄夜月" Name_VN="Huyền Dạ Nguyệt" Name_EN="Night Moon"/>
+	<Data Type="99999" ID="53520101" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520102" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520103" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520104" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520105" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520106" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520107" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520108" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520109" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53520110" Name_Standard="암습" Code="Rune_name_36" Name_KR="암습" Name_CN="暗袭" Name_TW="暗襲" Name_VN="Ám Tập" Name_EN="Hidden Attack"/>
+	<Data Type="99999" ID="53530101" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530102" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530103" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530104" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530105" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530106" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530107" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530108" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530109" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53530110" Name_Standard="곡성" Code="Rune_name_37" Name_KR="곡성" Name_CN="哭声" Name_TW="哭聲" Name_VN="Tiếng Khóc" Name_EN="Windgeist"/>
+	<Data Type="99999" ID="53540101" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540102" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540103" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540104" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540105" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540106" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540107" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540108" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540109" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53540110" Name_Standard="강궁" Code="Rune_name_38" Name_KR="강궁" Name_CN="强弓" Name_TW="強弓" Name_VN="Cường Cung" Name_EN="Strong Bow"/>
+	<Data Type="99999" ID="53550101" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550102" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550103" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550104" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550105" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550106" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550107" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550108" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550109" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="53550110" Name_Standard="초교" Code="Rune_name_39" Name_KR="초교" Name_CN="初桥" Name_TW="初橋" Name_VN="Sơ Kiều" Name_EN="Nimble"/>
+	<Data Type="99999" ID="54500101" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500102" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500103" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500104" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500105" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500106" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500107" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500108" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500109" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54500110" Name_Standard="신안" Code="Rune_name_40" Name_KR="신안" Name_CN="神安" Name_TW="神安" Name_VN="Thần An" Name_EN="God Safety"/>
+	<Data Type="99999" ID="54510101" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510102" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510103" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510104" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510105" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510106" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510107" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510108" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510109" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54510110" Name_Standard="귀모" Code="Rune_name_41" Name_KR="귀모" Name_CN="鬼母" Name_TW="鬼母" Name_VN="Quỷ Mẫu" Name_EN="Tenacity"/>
+	<Data Type="99999" ID="54520101" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520102" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520103" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520104" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520105" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520106" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520107" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520108" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520109" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54520110" Name_Standard="심공" Code="Rune_name_42" Name_KR="심공" Name_CN="心空" Name_TW="心空" Name_VN="Tâm Không" Name_EN="Concentration"/>
+	<Data Type="99999" ID="54530101" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530102" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530103" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530104" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530105" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530106" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530107" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530108" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530109" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54530110" Name_Standard="대오" Code="Rune_name_43" Name_KR="대오" Name_CN="大悟" Name_TW="大悟" Name_VN="Đại Ngộ" Name_EN="Seek"/>
+	<Data Type="99999" ID="54540101" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540102" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540103" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540104" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540105" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540106" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540107" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540108" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540109" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54540110" Name_Standard="이형환위" Code="Rune_name_44" Name_KR="이형환위" Name_CN="移形换位" Name_TW="移形換位" Name_VN="Di Hình Hoán Vị" Name_EN="Materialize"/>
+	<Data Type="99999" ID="54550101" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550102" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550103" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550104" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550105" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550106" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550107" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550108" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550109" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="54550110" Name_Standard="총명예지" Code="Rune_name_45" Name_KR="총명예지" Name_CN="聪明睿智" Name_TW="聰明睿智" Name_VN="Thông Minh Nhuệ Trí" Name_EN="Clairvoyance"/>
+	<Data Type="99999" ID="55100101" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100102" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100103" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100104" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100105" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100106" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100107" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100108" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100109" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55100110" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55110101" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110102" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110103" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110104" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110105" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110106" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110107" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110108" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110109" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55110110" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55120101" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120102" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120103" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120104" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120105" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120106" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120107" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120108" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120109" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55120110" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55130101" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130102" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130103" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130104" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130105" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130106" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130107" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130108" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130109" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55130110" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55140101" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140102" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140103" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140104" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140105" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140106" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140107" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140108" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140109" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55140110" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55150101" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150102" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150103" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150104" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150105" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150106" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150107" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150108" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150109" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55150110" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55200101" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200102" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200103" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200104" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200105" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200106" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200107" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200108" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200109" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55200110" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55210101" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210102" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210103" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210104" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210105" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210106" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210107" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210108" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210109" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55210110" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55220101" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220102" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220103" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220104" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220105" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220106" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220107" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220108" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220109" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55220110" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55230101" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230102" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230103" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230104" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230105" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230106" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230107" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230108" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230109" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55230110" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55240101" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240102" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240103" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240104" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240105" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240106" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240107" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240108" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240109" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55240110" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55250101" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250102" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250103" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250104" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250105" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250106" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250107" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250108" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250109" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55250110" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55300101" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300102" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300103" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300104" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300105" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300106" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300107" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300108" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300109" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55300110" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55310101" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310102" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310103" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310104" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310105" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310106" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310107" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310108" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310109" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55310110" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55320101" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320102" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320103" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320104" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320105" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320106" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320107" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320108" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320109" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55320110" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55330101" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330102" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330103" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330104" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330105" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330106" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330107" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330108" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330109" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55330110" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55340101" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340102" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340103" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340104" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340105" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340106" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340107" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340108" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340109" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55340110" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55350101" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350102" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350103" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350104" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350105" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350106" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350107" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350108" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350109" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55350110" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55400101" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400102" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400103" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400104" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400105" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400106" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400107" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400108" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400109" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55400110" Name_Standard="경투공" Code="Rune_name_46" Name_KR="경투공" Name_CN="竞斗功" Name_TW="競鬥功" Name_VN="Lực Chiến Đấu" Name_EN="Lightweight"/>
+	<Data Type="99999" ID="55410101" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410102" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410103" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410104" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410105" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410106" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410107" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410108" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410109" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55410110" Name_Standard="투기" Code="Rune_name_47" Name_KR="투기" Name_CN="斗气" Name_TW="鬥氣" Name_VN="Đấu Khí" Name_EN="Combative Energy"/>
+	<Data Type="99999" ID="55420101" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420102" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420103" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420104" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420105" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420106" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420107" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420108" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420109" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55420110" Name_Standard="만독불침" Code="Rune_name_48" Name_KR="만독불침" Name_CN="万毒不侵" Name_TW="萬毒不侵" Name_VN="Vạn Độc Bất Xâm" Name_EN="Poisonproof"/>
+	<Data Type="99999" ID="55430101" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430102" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430103" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430104" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430105" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430106" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430107" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430108" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430109" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55430110" Name_Standard="피륜안" Code="Rune_name_49" Name_KR="피륜안" Name_CN="血轮眼" Name_TW="血輪眼" Name_VN="Huyết Luân Nhãn" Name_EN="Sense Danger"/>
+	<Data Type="99999" ID="55440101" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440102" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440103" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440104" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440105" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440106" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440107" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440108" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440109" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55440110" Name_Standard="운기조식" Code="Rune_name_50" Name_KR="운기조식" Name_CN="运气调息" Name_TW="運氣調息" Name_VN="Vận Khí Điều Tức" Name_EN="Mindfulness"/>
+	<Data Type="99999" ID="55450101" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450102" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450103" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450104" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450105" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450106" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450107" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450108" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450109" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="55450110" Name_Standard="강체신" Code="Rune_name_51" Name_KR="강체신" Name_CN="钢体身" Name_TW="鋼體身" Name_VN="Cương Thể Thân" Name_EN="Iron Body"/>
+	<Data Type="99999" ID="61100100" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100101" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100102" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100103" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100104" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100105" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100106" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100107" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100108" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61100109" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="61110100" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110101" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110102" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110103" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110104" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110105" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110106" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110107" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110108" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61110109" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="61120100" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120101" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120102" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120103" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120104" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120105" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120106" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120107" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120108" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="61120109" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62100100" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100101" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100102" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100103" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100104" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100105" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100106" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100107" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100108" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62100109" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="62110100" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110101" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110102" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110103" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110104" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110105" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110106" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110107" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110108" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62110109" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="62120100" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120101" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120102" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120103" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120104" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120105" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120106" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120107" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120108" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="62120109" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63100100" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100101" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100102" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100103" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100104" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100105" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100106" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100107" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100108" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63100109" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="63110100" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110101" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110102" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110103" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110104" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110105" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110106" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110107" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110108" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63110109" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="63120100" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120101" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120102" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120103" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120104" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120105" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120106" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120107" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120108" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="63120109" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64100100" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100101" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100102" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100103" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100104" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100105" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100106" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100107" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100108" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64100109" Name_Standard="마혈공" Code="Rune_name_52" Name_KR="마혈공" Name_CN="魔血功" Name_TW="魔血功" Name_VN="Ma Huyết Công" Name_EN="Demon Bloody Attack"/>
+	<Data Type="99999" ID="64110100" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110101" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110102" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110103" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110104" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110105" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110106" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110107" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110108" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64110109" Name_Standard="마흡공" Code="Rune_name_53" Name_KR="마흡공" Name_CN="魔吸功" Name_TW="魔吸功" Name_VN="Ma Hấp Công" Name_EN="Demon Absorbing Attack"/>
+	<Data Type="99999" ID="64120100" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120101" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120102" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120103" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120104" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120105" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120106" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120107" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120108" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+	<Data Type="99999" ID="64120109" Name_Standard="현무공" Code="Rune_name_54" Name_KR="현무공" Name_CN="玄武公" Name_TW="玄武公" Name_VN="Huyền Vũ Công" Name_EN="Black Tortoise Attack"/>
+</Root>

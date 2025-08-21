@@ -1,0 +1,45 @@
+@import '~open-color/open-color';
+@import '~include-media/dist/include-media';
+@import '_media-queries.scss';
+
+$box-shadow-light: 2px 0 10px 0 rgba(0,0,0,.2);
+$box-shadow-hard: 0 2px 14px 0;
+
+$gradient-green-blue: linear-gradient(to left, #21618C, #1ABC9C);
+$gradient-green-peacock: linear-gradient(to bottom,#218c3d, #9fbc1a);
+$caution-red: #cc7b7b;
+$impact-orange: #f44336;
+$vx-indigo: #2a3a4c;
+
+$spacer-height: 70px;
+
+$xl-desktop-width: 1920px;
+$lg-desktop-width: 1200px;
+$ipad-pro-width: 1024px;
+$md-desktop-width: 1000px;
+$ipad-width: 768px;
+$iphone-plus-width: 414px;
+$iphone-x-width: 375px;
+
+@keyframes movingup{
+    0%{ margin-top: 0; } 
+    100%{ margin-top: -40px; background: #00000044; }
+}
+
+.blinking{
+	-webkit-animation:blink 1s ease-in-out infinite alternate;
+    -moz-animation:blink 1s ease-in-out infinite alternate;
+    animation:blink 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

@@ -1,0 +1,42 @@
+.coupon-reward-custom {
+  width: 300px; /* 원하는 너비 값으로 수정 */
+  height: 20px; /* 원하는 높이 값으로 수정 */
+  font-size: 12px; /* 폰트 크기 지정 */
+}
+
+.coupon-type-custom {
+  width: 300px; /* 원하는 너비 값으로 수정 */
+  height: 20px; /* 원하는 높이 값으로 수정 */
+  font-size: 12px; /* 폰트 크기 지정 */
+}
+
+.qianhuan-mail-reward-custom {
+  width: 300px; /* 원하는 너비 값으로 수정 */
+  height: 20px; /* 원하는 높이 값으로 수정 */
+  font-size: 12px; /* 폰트 크기 지정 */ 
+}
+
+.label-style {
+  font-size: 12px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.select-world-custom {
+  margin:0px 0px 0px -26px;    /* top right bottom left */
+  width: 200px; /* 원하는 너비 값으로 수정 */
+  height: 40px; /* 원하는 높이 값으로 수정 */
+  font-size: 15px; /* 폰트 크기 지정 */
+}
+
+.language-select {
+  position: absolute;
+  left: 70px; /* Facebook 아이콘 아래로 조정 */
+  top: 10px; /* Facebook 아이콘과 높이를 맞추기 위해 조정 */
+}
+
+.language-select select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

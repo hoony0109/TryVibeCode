@@ -7,6 +7,7 @@ const { operationDb, gameDb } = require('../config/mysql');
 const redis = require('../config/redis');
 const auth = require('../middleware/auth');
 const { logActivity } = require('../models/Log');
+const { logAdminAction, ComponentType, ActionType } = require('../utils/adminLogger');
 
 // Admin Login
 router.post(
@@ -52,6 +53,7 @@ router.post(
       admin: {
         id: admin.id,
         role: admin.role,
+        username: admin.username // Add username to the payload
       },
     };
 
@@ -61,8 +63,19 @@ router.post(
       { expiresIn: '1h' },
       (err, token) => {
         if (err) throw err;
+        // logActivity is now safe because we fixed the undefined issue in Log.js
         logActivity(admin.id, 'Admin Login', { username: admin.username });
-        res.json({ token });
+        
+        // New admin log
+        logAdminAction(
+          admin.id,
+          ComponentType.AUTH,
+          ActionType.LOGIN_SUCCESS,
+          { username: admin.username },
+          req.ip
+        );
+
+        res.json({ token, role: admin.role });
       }
     );
   } catch (err) {
@@ -78,6 +91,16 @@ router.post('/logout', auth, async (req, res) => {
     // Blacklist the token in Redis
     await redis.set(token, 'blacklisted', 'EX', 3600); // Token expires in 1 hour
     logActivity(req.admin.id, 'Admin Logout');
+
+    // New admin log
+    logAdminAction(
+      req.admin.id,
+      ComponentType.AUTH,
+      ActionType.LOGOUT,
+      { username: req.admin.username },
+      req.ip
+    );
+
     res.json({ message: 'Logged out successfully' });
   } catch (err) {
     console.error(err.message);
@@ -88,7 +111,7 @@ router.post('/logout', auth, async (req, res) => {
 router.get('/me', auth, async (req, res) => {
   try {
     const [rows] = await operationDb.query('SELECT id, username, role FROM admins WHERE id = ?', [req.admin.id]);
-    res.json(rows[0]);
+    res.json(rows);
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server error');

@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 import Modal from '../Modal/Modal';
 import PlayerDetails from './PlayerDetails';
 import './PlayerManagementPage.css';
@@ -13,17 +14,48 @@ interface Player {
     status: string;
     lastIp: string;
     banStatus: string;
+    // char_info fields
+    charGold?: number;
+    charExp?: number;
+    charExpHigh?: number;
+    charStatPoint?: number;
+    guildPoint?: number;
+    guildDonationCount?: number;
+    guildDonationLastUpdate?: string;
+    maxInvenSize?: number;
+    charMileage?: number;
+    battlePower?: number;
+    pkPoint?: number;
+    disassembleOption?: string;
+    lastLogoffDate?: string;
+    deletedDate?: string;
+    level?: number; // Derived from char_exp
+    class?: string; // char_type
+    creationDate?: string; // reg_date
+    // userinfo fields (for userId search)
+    cashA?: number;
+    cashAFree?: number;
+    lastLoginDate?: string;
+    awarehouseBuyslot?: number;
+    awarehouseGold?: number;
+    iapQty?: number;
+    iapAmount?: number;
 }
 
 const PlayerManagementPage: React.FC = () => {
+    const navigate = useNavigate();
     const [players, setPlayers] = useState<Player[]>([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [currentSearchTerm, setCurrentSearchTerm] = useState(''); // New state for actual search
+    const [searchType, setSearchType] = useState('nickname'); // 'charId', 'userId', 'nickname'
+    const [resultSearchType, setResultSearchType] = useState('nickname'); // To store the search type of the results
+    
     const [loading, setLoading] = useState(false); // Set initial loading to false
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
     const [selectedDbId, setSelectedDbId] = useState('w07_gamedb'); // Default DB ID
     const [availableDbIds, setAvailableDbIds] = useState<string[]>([]);
+    const [currentUserRole, setCurrentUserRole] = useState<string>(''); // Current user's role
 
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30;
@@ -36,6 +68,24 @@ const PlayerManagementPage: React.FC = () => {
     const endPage = Math.min(startPage + pageRange - 1, totalPages);
 
     useEffect(() => {
+        // Fetch current user's role
+        const fetchCurrentUserRole = async () => {
+            try {
+                const token = localStorage.getItem('token');
+                const response = await axios.get('http://localhost:3000/api/auth/me', {
+                    headers: { 'x-auth-token': token }
+                });
+                setCurrentUserRole(response.data.role);
+            } catch (error: any) {
+                console.error('Failed to fetch current user role', error);
+                if (error.response && error.response.status === 401) {
+                    alert('Session expired or unauthorized. Please log in again.');
+                    localStorage.removeItem('token');
+                    navigate('/login');
+                }
+            }
+        };
+
         // Fetch available DB IDs from backend
         const fetchDbIds = async () => {
             try {
@@ -56,6 +106,8 @@ const PlayerManagementPage: React.FC = () => {
                 }
             }
         };
+
+        fetchCurrentUserRole();
         fetchDbIds();
     }, []);
 
@@ -74,20 +126,53 @@ const PlayerManagementPage: React.FC = () => {
             setLoading(true);
             try {
                 const token = localStorage.getItem('token');
-                const response = await axios.get(`http://localhost:3000/api/players?search=${currentSearchTerm}&dbId=${selectedDbId}&page=${currentPage}&limit=${itemsPerPage}`, {
+                const response = await axios.get(`http://localhost:3000/api/players?search=${currentSearchTerm}&searchType=${searchType}&dbId=${selectedDbId}&page=${currentPage}&limit=${itemsPerPage}`, {
                     headers: { 'x-auth-token': token }
                 });
-                // API 응답에서 user_idx를 id로, char_idx를 charIndex로 매핑
-                setPlayers(response.data.players.map((p: any) => ({
-                    id: p.id, // user_idx
-                    userIndex: p.userIndex,
-                    charIndex: p.charIndex || 'N/A', // char_info가 없을 경우 대비
-                    nickname: p.nickname,
-                    status: p.status,
-                    lastIp: p.lastIp,
-                    banStatus: p.banStatus,
-                })));
+                // API 응답에서 모든 필드를 매핑
+                console.log('Raw API response:', response.data.players);
+                setPlayers(response.data.players.map((p: any) => {
+                    const player = {
+                        id: p.id, // user_idx
+                        userIndex: p.userIndex,
+                        charIndex: p.charIndex || 'N/A',
+                        nickname: p.nickname,
+                        status: p.status,
+                        lastIp: p.lastIp,
+                        banStatus: p.banStatus,
+                        // char_info 필드들 추가
+                        level: p.level,
+                        class: p.class,
+                        creationDate: p.creationDate,
+                        charGold: p.charGold,
+                        charExp: p.charExp,
+                        charExpHigh: p.charExpHigh,
+                        charStatPoint: p.charStatPoint,
+                        guildPoint: p.guildPoint,
+                        guildDonationCount: p.guildDonationCount,
+                        guildDonationLastUpdate: p.guildDonationLastUpdate,
+                        maxInvenSize: p.maxInvenSize,
+                        charMileage: p.charMileage,
+                        battlePower: p.battlePower,
+                        pkPoint: p.pkPoint,
+                        disassembleOption: p.disassembleOption,
+                        lastLogoffDate: p.lastLogoffDate,
+                        deletedDate: p.deletedDate,
+                        // userinfo 필드들 추가
+                        lastLoginDate: p.lastLoginDate,
+                        cashA: p.cashA,
+                        cashAFree: p.cashAFree,
+                        awarehouseBuyslot: p.awarehouseBuyslot,
+                        awarehouseGold: p.awarehouseGold,
+                        iapQty: p.iapQty,
+                        iapAmount: p.iapAmount
+                    };
+                    console.log('Mapped player data:', player);
+                    return player;
+                }));
                 setTotalPlayers(response.data.totalPlayers);
+                setResultSearchType(response.data.searchType); // Store the search type of the results
+                
             } catch (error: any) {
                 console.error('Failed to fetch players', error);
                 if (error.response && error.response.status === 401) {
@@ -206,28 +291,34 @@ const PlayerManagementPage: React.FC = () => {
     return (
         <div className="player-management-page">
             <div className="search-controls">
-                <div className="search-bar">
-                    <input
-                        type="text"
-                        placeholder="Search by UserIndex or Nickname..."
-                        value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
-                        onKeyPress={(e) => { if (e.key === 'Enter') handleSearch(); }} // Add Enter key support
-                    />
-                    <button className="search-button" onClick={handleSearch}>Search</button>
-                </div>
-                <div className="db-selector">
-                    <label htmlFor="db-select">Select Game DB:</label>
-                    <select 
-                        id="db-select"
-                        value={selectedDbId}
-                        onChange={(e) => setSelectedDbId(e.target.value)}
-                    >
+                <div className="form-group">
+                    <label htmlFor="game-db">Game DB</label>
+                    <select id="game-db" value={selectedDbId} onChange={(e) => setSelectedDbId(e.target.value)}>
                         {availableDbIds.map(dbId => (
                             <option key={dbId} value={dbId}>{dbId}</option>
                         ))}
                     </select>
                 </div>
+                <div className="form-group">
+                    <label>Search by</label>
+                    <select value={searchType} onChange={(e) => setSearchType(e.target.value)} className="search-type-selector">
+                        <option value="nickname">Nickname</option>
+                        <option value="userId">User ID</option>
+                        <option value="charId">Character ID</option>
+                    </select>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="search-term">Search Term</label>
+                    <input
+                        id="search-term"
+                        type="text"
+                        placeholder={`Enter ${searchType}...`}
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        onKeyPress={(e) => { if (e.key === 'Enter') handleSearch(); }}
+                    />
+                </div>
+                <button className="search-button" onClick={handleSearch}>Search</button>
             </div>
             <div className="player-table-container">
                 {loading ? (
@@ -236,26 +327,68 @@ const PlayerManagementPage: React.FC = () => {
                     <table className="player-table">
                         <thead>
                             <tr>
-                                <th>UserIndex</th>
-                                <th>CharIndex</th>
-                                <th>Nickname</th>
-                                <th>Status</th>
-                                <th>Last IP</th>
-                                <th>Ban Status</th>
+                                {resultSearchType === 'userId' ? (
+                                    <>
+                                        <th>UserIndex</th>
+                                        <th>Status</th>
+                                        <th>Creation Date</th>
+                                        <th>Last Login Date</th>
+                                        <th>Last Logoff Date</th>
+                                        <th>Cash (Paid)</th>
+                                        <th>Cash (Free)</th>
+                                        <th>Warehouse Buy Slot</th>
+                                        <th>Warehouse Gold</th>
+                                        <th>IAP Quantity</th>
+                                        <th>IAP Amount</th>
+                                    </>
+                                ) : (
+                                    <>
+                                        <th>UserIndex</th>
+                                        <th>CharIndex</th>
+                                        <th>Nickname</th>
+                                        <th>Status</th>
+                                        <th>Level</th>
+                                        <th>Class</th>
+                                        <th>Creation Date</th>
+                                    </>
+                                )}
                                 <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>
                             {players.map(player => (
                                 <tr key={player.id}>
-                                    <td>{player.userIndex}</td>
-                                    <td>{player.charIndex}</td>
-                                    <td>{player.nickname}</td>
-                                    <td>{player.status}</td>
-                                    <td>{player.lastIp}</td>
-                                    <td>{player.banStatus}</td>
+                                    {resultSearchType === 'userId' ? (
+                                        <>
+                                            <td>{player.userIndex}</td>
+                                            <td>{player.status}</td>
+                                            <td>{player.creationDate ? new Date(player.creationDate).toLocaleString() : 'N/A'}</td>
+                                            <td>{player.lastLoginDate ? new Date(player.lastLoginDate).toLocaleString() : 'N/A'}</td>
+                                            <td>{player.lastLogoffDate ? new Date(player.lastLogoffDate).toLocaleString() : 'N/A'}</td>
+                                            <td>{player.cashA !== undefined && player.cashA !== null ? player.cashA : 'N/A'}</td>
+                                            <td>{player.cashAFree !== undefined && player.cashAFree !== null ? player.cashAFree : 'N/A'}</td>
+                                            <td>{player.awarehouseBuyslot !== undefined && player.awarehouseBuyslot !== null ? player.awarehouseBuyslot : 'N/A'}</td>
+                                            <td>{player.awarehouseGold !== undefined && player.awarehouseGold !== null ? player.awarehouseGold : 'N/A'}</td>
+                                            <td>{player.iapQty !== undefined && player.iapQty !== null ? player.iapQty : 'N/A'}</td>
+                                            <td>{player.iapAmount !== undefined && player.iapAmount !== null ? player.iapAmount : 'N/A'}</td>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <td>{player.userIndex}</td>
+                                            <td>{player.charIndex || 'N/A'}</td>
+                                            <td>{player.nickname || 'N/A'}</td>
+                                            <td>{player.status}</td>
+                                            <td>{player.level !== undefined ? player.level : 'N/A'}</td>
+                                            <td>{player.class || 'N/A'}</td>
+                                            <td>{player.creationDate ? new Date(player.creationDate).toLocaleString() : 'N/A'}</td>
+                                        </>
+                                    )}
                                     <td>
-                                        <button onClick={() => handleDetailsClick(player.id)} className="action-button">Details</button>
+                                        {currentUserRole === 'superadmin' ? (
+                                            <button onClick={() => handleDetailsClick(player.id)} className="action-button">Details</button>
+                                        ) : (
+                                            <button disabled className="action-button disabled">Details</button>
+                                        )}
                                     </td>
                                 </tr>
                             ))}

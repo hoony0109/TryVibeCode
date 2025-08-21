@@ -13,15 +13,30 @@
 }
 
 .modal-content {
-    background-color: #162447;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    position: relative;
-    width: 90%;
-    max-width: 600px;
-    max-height: 90vh;
-    overflow-y: auto;
+  background: #2c2c54; /* Darker background for content */
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+  width: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border: 1px solid #4a4a6a;
+}
+
+.modal-content-small {
+  max-width: 300px;
+}
+
+.modal-content-medium {
+  max-width: 500px;
+}
+
+.modal-content-large {
+  max-width: 800px;
+}
+
+.modal-content-xlarge {
+  max-width: 1200px;
+  width: 80vw;
 }
 
 .modal-close-button {

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+	<Data Type="0" ID="50000001" Name_Standard="금화" Code="IDS_Shop_Category_Name_4" Name_KR="금화" Name_CN="金币" Name_TW="金幣" Name_VN="Vàng" Name_EN="0"/>
+	<Data Type="0" ID="50000002" Name_Standard="푸른수정" Code="Wealth_name_1" Name_KR="푸른수정" Name_CN="绿钻" Name_TW="푸른수정(번역필요)" Name_VN="Ngọc Xanh " Name_EN="0"/>
+	<Data Type="0" ID="50000003" Name_Standard="행동력" Code="Wealth_name_2" Name_KR="행동력" Name_CN="测试武器抽奖券" Name_TW="행동력(번역필요)" Name_VN="Hành Động" Name_EN="0"/>
+	<Data Type="0" ID="50000004" Name_Standard="스킬 포인트" Code="IDS_Skill_String_2" Name_KR="스킬 포인트" Name_CN="技能点" Name_TW="技能點數" Name_VN="Điểm kỹ năng" Name_EN="0"/>
+	<Data Type="0" ID="34001001" Name_Standard="테스트 무기 뽑기권" Code="Wealth_name_3" Name_KR="테스트 무기 뽑기권" Name_CN="测试武器抽奖券" Name_TW="테스트 무기 뽑기권(번역필요)" Name_VN="Test Vé Rút Vũ Khí" Name_EN="0"/>
+	<Data Type="0" ID="50000005" Name_Standard="도전" Code="IDS_Ordeal_Term_Start" Name_KR="도전" Name_CN="挑战" Name_TW="挑戰" Name_VN="Khiêu chiến" Name_EN="0"/>
+	<Data Type="0" ID="50000006" Name_Standard="경험치" Code="IDS_Result_UITitle_Exp" Name_KR="경험치" Name_CN="经验值" Name_TW="經驗值" Name_VN="EXP" Name_EN="0"/>
+	<Data Type="0" ID="50000007" Name_Standard="스탯포인트" Code="Wealth_name_4" Name_KR="스탯포인트" Name_CN="属性点" Name_TW="스탯포인트(번역필요)" Name_VN="Điểm Thuộc tính chính" Name_EN="0"/>
+	<Data Type="0" ID="60000001" Name_Standard="기억의 파편" Code="IDS_Seal_Stage_Title_001" Name_KR="기억의 파편" Name_CN="记忆的碎片" Name_TW="記憶的碎片" Name_VN="Mảnh Ký Ức" Name_EN="0"/>
+	<Data Type="0" ID="50000008" Name_Standard="문파 포인트" Code="IDS_Guild_wealth_Point" Name_KR="문파 포인트" Name_CN="门派点" Name_TW="문파 포인트(번역필요)" Name_VN="Điểm Bang" Name_EN="0"/>
+	<Data Type="0" ID="50000009" Name_Standard="문파경험치" Code="Wealth_name_5" Name_KR="문파경험치" Name_CN="门派经验值" Name_TW="문파경험치(번역필요)" Name_VN="EXP Bang" Name_EN="0"/>
+	<Data Type="0" ID="50000010" Name_Standard="붉은수정" Code="Wealth_name_6" Name_KR="붉은수정" Name_CN="红钻" Name_TW="붉은수정(번역필요)" Name_VN="Ngọc Đỏ" Name_EN="0"/>
+	<Data Type="0" ID="50000011" Name_Standard="마일리지" Code="IDS_Shop_Category_Name_7" Name_KR="마일리지" Name_CN="特殊商店" Name_TW="哩程" Name_VN="Tài Nguyên" Name_EN="0"/>
+	<Data Type="0" ID="50000012" Name_Standard="혈석" Code="IDS_PkGold_Gain" Name_KR="혈석" Name_CN="血石" Name_TW="血石" Name_VN="Huyết Thạch" Name_EN="0"/>
+	<Data Type="0" ID="50000013" Name_Standard="채광 경험치" Code="Wealth_name_8" Name_KR="채광 경험치" Name_CN="采矿经验值" Name_TW="채광 경험치(번역필요)" Name_VN="EXP Đào Quặng" Name_EN="0"/>
+	<Data Type="0" ID="50000014" Name_Standard="꽃" Code="Wealth_name_9" Name_KR="꽃" Name_CN="花" Name_TW="꽃(번역필요)" Name_VN="Hoa" Name_EN="0"/>
+	<Data Type="0" ID="50000051" Name_Standard="문파 기금" Code="IDS_Guild_wealth_Gold" Name_KR="문파 기금" Name_CN="门派基金" Name_TW="문파 기금(번역필요)" Name_VN="Quỹ Bang" Name_EN="0"/>
+	<Data Type="0" ID="50000052" Name_Standard="문파 인장" Code="IDS_Guild_wealth_Gem" Name_KR="문파 인장" Name_CN="门派印章" Name_TW="문파 인장(번역필요)" Name_VN="Ấn Bang" Name_EN="0"/>
+	<Data Type="0" ID="50000053" Name_Standard="기여도" Code="IDS_Guild_wealth_Contribution" Name_KR="기여도" Name_CN="贡献值" Name_TW="기여도(번역필요)" Name_VN="Mức đóng góp" Name_EN="0"/>
+</Root>

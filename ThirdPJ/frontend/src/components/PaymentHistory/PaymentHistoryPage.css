@@ -1,0 +1,22 @@
+/* Styles for PaymentHistoryPage. We can reuse styles from LogViewerPage.css */
+.payment-history-page .filters-card {
+  background-color: #1a1a2e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.payment-history-page .filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.payment-history-page .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

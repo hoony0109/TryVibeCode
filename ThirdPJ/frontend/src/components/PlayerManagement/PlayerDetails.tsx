@@ -1,5 +1,8 @@
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Modal from '../Modal/Modal';
+import ItemListViewer from './ItemListViewer'; // Import ItemListViewer from its new file
 import './PlayerDetails.css';
 
 interface Player {
@@ -28,6 +31,7 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player, onStatusChange, s
     const [itemType, setItemType] = useState('consumable'); // 'consumable' or 'equipment'
     const [itemInfo, setItemInfo] = useState<any>(null);
     const [itemLookupLoading, setItemLookupLoading] = useState(false);
+    const [isItemViewerOpen, setIsItemViewerOpen] = useState(false); // State for ItemListViewer modal
 
     useEffect(() => {
         const lookupItem = async () => {
@@ -69,8 +73,8 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player, onStatusChange, s
 
         try {
             const token = localStorage.getItem('token');
-            const response = await axios.put(`http://localhost:3000/api/players/${player.id}/status`, 
-                { status: newStatus, dbId: selectedDbId }, // Pass dbId in body
+            const response = await axios.put(`http://localhost:3000/api/players/${player.id}/status`,
+                { status: newStatus, dbId: selectedDbId },
                 { headers: { 'x-auth-token': token } }
             );
             alert(response.data.msg);
@@ -98,13 +102,13 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player, onStatusChange, s
 
         try {
             const token = localStorage.getItem('token');
-            const response = await axios.post(`http://localhost:3000/api/items/${action}`, 
+            const response = await axios.post(`http://localhost:3000/api/items/${action}`,
                 {
                     userIndex: player.userIndex,
                     charIndex: player.charIndex,
                     dbId: selectedDbId,
                     itemId: parseInt(itemId),
-                    itemType: itemInfo.type, // Use type from lookup
+                    itemType: itemInfo.type === 'consumable' || itemInfo.type === 'equipment' ? itemInfo.type : 'consumable', // Ensure valid type
                     quantity: itemQuantity,
                 },
                 { headers: { 'x-auth-token': token } }
@@ -117,6 +121,11 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player, onStatusChange, s
         }
     };
 
+    const handleItemSelect = (selectedItemId: string) => {
+        setItemId(selectedItemId);
+        setIsItemViewerOpen(false);
+    };
+
     return (
         <div className="player-details">
             <h3>Player Details: {player.nickname}</h3>
@@ -127,40 +136,41 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player, onStatusChange, s
                 <div className="detail-item"><strong>Status:</strong> {player.status}</div>
                 <div className="detail-item"><strong>Ban Status:</strong> {player.banStatus}</div>
                 <div className="detail-item"><strong>Last IP:</strong> {player.lastIp}</div>
-                {/* Example of other potential fields */}
                 <div className="detail-item"><strong>Level:</strong> {player.level || 'N/A'}</div>
                 <div className="detail-item"><strong>Class:</strong> {player.class || 'N/A'}</div>
                 <div className="detail-item"><strong>Creation Date:</strong> {player.creationDate || 'N/A'}</div>
             </div>
             <div className="details-actions">
-                <button 
+                <button
                     className="action-button"
                     onClick={() => handleStatusChange('Locked')}
                     disabled={player.status === 'Locked'}
                 >
                     Lock Account
                 </button>
-                <button 
+                <button
                     className="action-button secondary"
                     onClick={() => handleStatusChange('Active')}
                     disabled={player.status === 'Active'}
                 >
                     Unlock Account
                 </button>
-                {/* Add more action buttons as needed */}
             </div>
 
             <div className="item-management-section">
                 <h4>Item Management</h4>
                 <div className="item-input-group">
                     <label htmlFor="itemId">Item ID:</label>
-                    <input 
-                        type="number"
-                        id="itemId"
-                        value={itemId}
-                        onChange={(e) => setItemId(e.target.value)}
-                        placeholder="e.g., 1001"
-                    />
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <input
+                            type="number"
+                            id="itemId"
+                            value={itemId}
+                            onChange={(e) => setItemId(e.target.value)}
+                            placeholder="e.g., 1001"
+                        />
+                        <button type="button" className="btn btn-secondary" onClick={() => setIsItemViewerOpen(true)}>View Items</button>
+                    </div>
                 </div>
                 {itemLookupLoading && <p>Loading item info...</p>}
                 {itemInfo && itemInfo.name !== 'Not Found' && (
@@ -175,7 +185,7 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player, onStatusChange, s
                 )}
                 <div className="item-input-group">
                     <label htmlFor="itemQuantity">Quantity:</label>
-                    <input 
+                    <input
                         type="number"
                         id="itemQuantity"
                         value={itemQuantity}
@@ -185,7 +195,7 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player, onStatusChange, s
                 </div>
                 <div className="item-input-group">
                     <label htmlFor="itemType">Item Type:</label>
-                    <select 
+                    <select
                         id="itemType"
                         value={itemType}
                         onChange={(e) => setItemType(e.target.value)}
@@ -196,10 +206,13 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player, onStatusChange, s
                     </select>
                 </div>
                 <div className="item-action-buttons">
-                    <button className="action-button" onClick={() => handleItemAction('give')}>Give Item</button>
-                    <button className="action-button secondary" onClick={() => handleItemAction('take')}>Take Item</button>
+                    <button onClick={() => handleItemAction('give')} className="btn btn-primary">Give Item</button>
                 </div>
             </div>
+
+            <Modal isOpen={isItemViewerOpen} onClose={() => setIsItemViewerOpen(false)}>
+                <ItemListViewer onSelectItem={handleItemSelect} />
+            </Modal>
         </div>
     );
 };

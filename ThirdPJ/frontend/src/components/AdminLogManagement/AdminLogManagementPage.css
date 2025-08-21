@@ -1,0 +1,153 @@
+/* AdminLogManagementPage.css */
+.admin-log-management-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #e0e0e0;
+}
+
+/* --- Filters --- */
+.log-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: #162447;
+  border-radius: 12px;
+}
+
+.log-filters .filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.log-filters label {
+  font-size: 0.9rem;
+  color: #a0a0c0;
+  text-align: left;
+}
+
+.log-filters input,
+.log-filters select {
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #3a3a5e;
+  background-color: #1f2a40;
+  color: #e0e0e0;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.log-filters input:focus,
+.log-filters select:focus {
+  outline: none;
+  border-color: #646cff;
+  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.3);
+}
+
+.log-filters button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #e94560;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  height: fit-content;
+}
+
+.log-filters button:hover {
+  background-color: #f06273;
+}
+
+.log-filters .download-button {
+  background-color: #4a4a6a;
+}
+
+.log-filters .download-button:hover {
+  background-color: #5a5a7a;
+}
+
+/* --- Table --- */
+.log-table-container {
+  background-color: #162447;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: auto;
+  flex-grow: 1;
+  min-height: 0;
+}
+
+.log-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #e0e0e0;
+}
+
+.log-table th,
+.log-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #3a3a5e;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.log-table th {
+  color: #b8c1ec;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #1e1e3f;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.log-table tr:hover {
+  background-color: #1e1e3f;
+}
+
+/* --- Pagination --- */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.pagination button {
+  padding: 8px 15px;
+  border: 1px solid #3a3a5e;
+  border-radius: 5px;
+  background-color: #162447;
+  color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #1e1e3f;
+}
+
+.pagination button.active {
+  background-color: #e94560;
+  color: white;
+  border-color: #e94560;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination span {
+  color: #e0e0e0;
+  font-size: 1rem;
+}
